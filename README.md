@@ -9,6 +9,8 @@ Este repositório contém materiais para estudar Qt em português e inglês.
 
 ...
 
+<!-- Não esquecer de mencionar o material do C++ Brasil aqui -->
+
 # Onde/como posso ler a documentação da API do Qt?
 
 ...
