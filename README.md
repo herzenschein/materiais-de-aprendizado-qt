@@ -1,6 +1,14 @@
 # Materiais de aprendizado para estudar Qt
 Este repositório contém materiais para estudar Qt em português e inglês.
 
+# O que é o Qt? Como posso usar o Qt?
+
+O [Qt](https://www.qt.io/) (pronunciado [/kjuːt/](https://upload.wikimedia.org/wikipedia/commons/7/73/En-us-cute.ogg), como a palavra cute do inglês) é um framework utilizado para criar aplicativos modernos para desktop, dispositivos móveis e embarcados. Ele é feito em C++ e permite escrever um mesmo código para múltiplas plataformas, como Linux, Windows, Mac e Android, dentre outros.
+
+O Qt extende o C++ e torna ele mais agradável para criar suas aplicações gráficas, e fornece também uma linguagem própria declarativa altamente produtiva, o QML. Ele inclui vários módulos, dentre eles o QtCore, o QtWidgets, o QtQuick, e outros.
+
+Ele possui duas licenças principais: uma LGPL e uma comercial. Os módulos do Qt licenciados como LGPL são de código aberto e permitem que você crie tanto aplicativos de código aberto quanto aplicativos proprietários, de código fechado, gratuitamente, [contanto se siga as condições da licença LGPL](https://www.qt.io/licensing/open-source-lgpl-obligations). Os módulos do Qt licenciados como comerciais fornecem funcionalidade extra e mais facilidades para desenvolvimento e integração em empresas, e o uso desta licença fornece suporte técnico, além de outros serviços. Há alguns poucos módulos que utilizam-se de outras licenças. Por exemplo, módulos que utilizam licença GPL obrigam seu aplicativo a ser de código aberto, embora seja perfeitamente possível lucrar em cima disso, contanto siga-se a licença. Módulos que utilizam licença MIT permitem um uso mais flexível para aplicativos proprietários. Leia [mais sobre isso aqui](https://doc.qt.io/qt-6/licenses-used-in-qt.html). É possível ver quais módulos seguem quais licenças na [página de funcionalidades do Qt](https://www.qt.io/product/features).
+
 # Qual a diferença entre QtCore, QtWidgets, QtQuick e QML?
 
 QtCore é um subconjunto de componentes do Qt especializado em aplicações **sem interface gráfica** (GUI). Ele é usado com C++ (e não QML), mas há language bindings para uso com outras linguagens, como Python. Vários dos seus componentes também estão disponíveis em módulos do QtWidgets e do QtQuick. Sua página inicial da documentação é esta: https://doc.qt.io/qt-6/qtcore-index.html e esta é a sua lista de classes C++: https://doc.qt.io/qt-6/qtcore-module.html. Dentre estas classes, as mais básicas são: [QCoreApplication](https://doc.qt.io/qt-6/qcoreapplication.html), [QDebug](https://doc.qt.io/qt-6/qdebug.html), [QString](https://doc.qt.io/qt-6/qstring.html), [QFile](https://doc.qt.io/qt-6/qfile.html), [QList](https://doc.qt.io/qt-6/qlist.html) e [QVariant](https://doc.qt.io/qt-6/qvariant.html).
@@ -13,7 +21,7 @@ QML é uma linguagem declarativa similar ao JSON usada principalmente para criar
 
 Existem outros componentes do Qt que interessam para quem pretende programar com o QtQuick: o [QtQuick Layouts](https://doc.qt.io/qt-6/qtquicklayouts-index.html) para criar layouts dinâmicos e o [QtQuick Controls](https://doc.qt.io/qt-6/qtquickcontrols-index.html) para obter controles mais elaborados para sua interface gráfica.
 
-Outros componentes interessantes do Qt são o [QtQuick3D](https://doc-snapshots.qt.io/qt6-dev/qtquick3d-index.html), que permite trabalhar com modelos 3D usando QML, e o [QtWebEngine](https://doc.qt.io/qt-6/qtwebengine-overview.html), que permite trabalhar com páginas da web diretamente.
+Outros componentes interessantes do Qt são o [QtGUI](https://doc-snapshots.qt.io/qt6-dev/qtgui-overview.html), que fornece alguns componentes de interface essenciais como [QGuiApplication](https://doc-snapshots.qt.io/qt6-dev/qguiapplication.html), [QAction](https://doc-snapshots.qt.io/qt6-dev/qaction.html) e [QColor](https://doc-snapshots.qt.io/qt6-dev/qcolor.html); o [QtQuick3D](https://doc-snapshots.qt.io/qt6-dev/qtquick3d-index.html), que permite trabalhar com modelos 3D usando QML; e o [QtWebEngine](https://doc.qt.io/qt-6/qtwebengine-overview.html), que permite trabalhar com páginas da web diretamente, seja com C++ ou QML.
 
 # Que linguagens posso usar para desenvolver em Qt?
 
