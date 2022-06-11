@@ -16,6 +16,9 @@ Este repositório contém materiais para estudar Qt em português e inglês.
 ...
 
 # Rota de aprendizado para iniciantes
+
+...
+
 <!-- 
 Adicionar uma sugestão de rota de aprendizado de componentes de QtCore/QtWidgets/QtQuick para iniciantes.
 -->
