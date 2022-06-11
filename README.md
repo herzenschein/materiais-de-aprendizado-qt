@@ -1,6 +1,23 @@
 # Materiais de aprendizado para estudar Qt
 Este repositório contém materiais para estudar Qt em português e inglês.
 
+# Qual a diferença entre QtCore, QtWidgets e QtQuick?
+
+...
+
+# Que linguagens posso usar para desenvolver em Qt?
+
+...
+
+# Onde/como posso ler a documentação da API do Qt?
+
+...
+
+# Rota de aprendizado para iniciantes
+<!-- 
+Adicionar uma sugestão de rota de aprendizado de componentes de QtCore/QtWidgets/QtQuick para iniciantes.
+-->
+
 # Canais para seguir
 - https://www.youtube.com/c/QtStudios The Qt Company
 - https://www.youtube.com/channel/UCpnk1I7ThHtKn4UYkuaO7Qg QtCon Brasil
@@ -87,7 +104,7 @@ Em Inglês:
 
 # Outros links
 Em Português:
-- https://github.com/cppbrasil/material-de-aprendizado
+- https://github.com/cppbrasil/material-de-aprendizado Materiais de aprendizado para C++
 
 Em Inglês:
-- https://github.com/mikalv/awesome-qt-qml
+- https://github.com/mikalv/awesome-qt-qml Programas feitos em QtQuick/QML
