@@ -1,10 +1,12 @@
-# materiais-de-aprendizado-qt
-Materiais de aprendizado para estudar Qt
+# Materiais de aprendizado para estudar Qt
+Este repositório contém materiais para estudar Qt em português e inglês.
 
 # Introduções ao Qt
 Em Português:
 
 Em Inglês:
+
+# Tutoriais de Qt oficiais da The Qt Company
 
 
 # QtCore
@@ -23,6 +25,7 @@ Em Inglês:
 Em Português:
 
 Em Inglês:
+
 
 # Outros links
 Em Português:
