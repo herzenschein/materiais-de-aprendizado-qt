@@ -28,4 +28,4 @@ Em Inglês:
 Em Português:
 
 Em Inglês:
-
+- https://github.com/mikalv/awesome-qt-qml
