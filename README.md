@@ -1,10 +1,20 @@
 # Materiais de aprendizado para estudar Qt
 Este repositório contém materiais para estudar Qt em português e inglês.
 
+
 # Introduções ao Qt
 Em Português:
+- https://ppgesp.ifba.edu.br/dl47 Introdução ao Qt/QtWidgets (por Sandro Andrade)
+- https://agostinhobritojr.github.io/tutorial/qt/index.html Introdução à programação em Qt (por Agostinho Brito Jr.)
+- https://programacaoqt.wordpress.com/ Aprendendo Qt com o projeto Octopi (por Alexandre Albuquerque Arnt)
+- https://www.youtube.com/playlist?list=PLIJWe5QVy1ZpqVmC7DEBoa-8OdxJyg3vY Maratona Qt 2020 (por Sandro Andrade)
+- https://www.youtube.com/playlist?list=PLx4x_zx8csUhzAyii9-cY-IJwo00p_5AC  Curso de Qt (por Canal Fessor Bruno)
+- https://www.youtube.com/playlist?list=PLtWfwYlJPu5zqNYITJrT9fMyRadOjaxEM Curso de Qt5 PySide2 GUI
 
 Em Inglês:
+
+- https://www.youtube.com/playlist?list=PL2D1942A4688E9D63 C++ Qt Programming (por Bryan Cairns)
+- https://www.youtube.com/playlist?list=PLUbFnGajtZlXbrbdlraCe3LMC_YH5abao Qt 6 With C++ (por Bryan Cairns)
 
 # Tutoriais de Qt oficiais da The Qt Company em Inglês
 
@@ -49,6 +59,7 @@ Em Inglês:
 
 # Outros links
 Em Português:
+- https://github.com/cppbrasil/material-de-aprendizado
 
 Em Inglês:
 - https://github.com/mikalv/awesome-qt-qml
