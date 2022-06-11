@@ -1,6 +1,11 @@
 # Materiais de aprendizado para estudar Qt
 Este repositório contém materiais para estudar Qt em português e inglês.
 
+# Canais para seguir
+- https://www.youtube.com/c/QtStudios The Qt Company
+- https://www.youtube.com/channel/UCpnk1I7ThHtKn4UYkuaO7Qg QtCon Brasil
+- https://www.youtube.com/c/KDABtv KDAB TV
+- https://www.youtube.com/c/KdeOrg The KDE Community
 
 # Introduções ao Qt
 Em Português:
@@ -13,6 +18,7 @@ Em Português:
 
 Em Inglês:
 
+- https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc Introduction to Qt/QML (por KDAB)
 - https://www.youtube.com/playlist?list=PL2D1942A4688E9D63 C++ Qt Programming (por Bryan Cairns)
 - https://www.youtube.com/playlist?list=PLUbFnGajtZlXbrbdlraCe3LMC_YH5abao Qt 6 With C++ (por Bryan Cairns)
 
