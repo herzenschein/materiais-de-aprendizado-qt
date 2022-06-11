@@ -3,7 +3,7 @@ Este repositório contém materiais para estudar Qt em português e inglês.
 
 # Qual a diferença entre QtCore, QtWidgets e QtQuick?
 
-...
+QtCore é um subconjunto de componentes do Qt especializado em aplicações **sem interface gráfica** (GUI). Ele é usado com C++ (e não QML), embora haja language bindings para uso com outras linguagens, como Python. Vários dos seus componentes também estão disponíveis em módulos do QtWidgets. Sua página inicial da documentação é esta: https://doc.qt.io/qt-6/qtcore-index.html e esta é a sua lista de classes C++: https://doc.qt.io/qt-6/qtcore-module.html. Dentre estas classes, as mais básicas são: [QCoreApplication](https://doc.qt.io/qt-6/qcoreapplication.html), [QDebug](https://doc.qt.io/qt-6/qdebug.html), [QString](https://doc.qt.io/qt-6/qstring.html), [QFile](https://doc.qt.io/qt-6/qfile.html), [QList](https://doc.qt.io/qt-6/qlist.html) e [QVariant](https://doc.qt.io/qt-6/qvariant.html).
 
 # Que linguagens posso usar para desenvolver em Qt?
 
