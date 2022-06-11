@@ -44,6 +44,28 @@ Em Inglês:
 
 # Talks de Qt oficiais da The Qt Company em Inglês
 
+- https://www.youtube.com/watch?v=nmvurCcsWos All You Need to Get Your App Done with Qt for Android | Tools | #QtWS21
+- https://www.youtube.com/watch?v=3o2Wo4YzlII QtWS17 - Android & iOS - put your app on a diet, Maciej Węglarczyk, GameDesire
+- https://www.youtube.com/watch?v=sRihJdZFuCg Code Once Deploy Everywhere: How Qt is ideal for cross-platform development
+- https://www.youtube.com/watch?v=Ko3DuCgFamo QtWS15- Custom Qt Creator Wizards, Tobias Hunger, The Qt Company
+- https://www.youtube.com/watch?v=v4glCQt2jE0 QtWS15- Effective multi platform development with Qt, Creator, QBS, and QEMU
+- https://www.youtube.com/watch?v=DP0lMoLVneY QtDD13 - Tobias Hunger - Extending Qt Creator
+- https://www.youtube.com/watch?v=qclquZ99ZVQ QtWS16- How to Develop with Qt for Multi-Screen and Platforms, Efficient App Lifecycle with Qt
+- https://www.youtube.com/watch?v=PzV2MYRAUYQ How to create a plugin for Qt Creator
+- https://www.youtube.com/watch?v=v_ynSET9FHU LTTng for full stack tracing
+- https://www.youtube.com/watch?v=au3brB7lNms QtWS17 No Limits: HowTo make a more complicated mobile business APP, Ekkehard Gentz
+- https://www.youtube.com/watch?v=ECA8_oLT0ZE Qt & Yocto, an ECU development workflow
+- https://www.youtube.com/watch?v=TiJiF0MOOFc QtDD14 -Using the QML profiler - Ulf Hermann
+- https://www.youtube.com/watch?v=hrKz63Q_Rf0 QtDD13 - Tim Sander - QtCreator for BareMetal development
+- https://www.youtube.com/watch?v=1w0ak9RNNWY Qt Creator in Space | Tools | #QtWS21
+- https://www.youtube.com/watch?v=B0X5FOev9Lw Qt Designer tutorial: Integrate custom widgets
+- https://www.youtube.com/watch?v=X0kEkB0ewyw QtWS16- Qt SCXML: State Machines Made Easier, Ulf Hermann, The Qt Company
+- https://www.youtube.com/watch?v=T_13aX5NTPk QtWS16- Qt for iOS A to Z, Mike Krus, KDAB
+- https://www.youtube.com/watch?v=tnZo9umrPtg Styling a Qt Quick Controls Desktop Application | User Interface | #QtWS21
+- https://www.youtube.com/watch?v=G0AbgVHGdXI QtWS15- The CPU Usage Analyzer for Device Creation, Ulf Herman, The Qt Company
+- https://www.youtube.com/watch?v=WIRRoPxIerc QtWS16- The Curse of Choice: An Overview of GUI technologies in Qt, Andy Nichols, The Qt Company
+- https://www.youtube.com/watch?v=pN0pRBUqrrc The New Property Bindings: Making C++ more QMLish | Platform | #QtWS21
+- https://www.youtube.com/watch?v=W3WC-VpKdGQ WEBASM with Qt - Qt for WebAssembly
 
 # QtCore
 Em Português:
