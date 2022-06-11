@@ -33,7 +33,7 @@ Em Português:
 - https://programacaoqt.wordpress.com/ Aprendendo Qt com o projeto Octopi (por Alexandre Albuquerque Arnt)
 - https://www.youtube.com/playlist?list=PLIJWe5QVy1ZpqVmC7DEBoa-8OdxJyg3vY Maratona Qt 2020 (por Sandro Andrade)
 - https://www.youtube.com/playlist?list=PLx4x_zx8csUhzAyii9-cY-IJwo00p_5AC  Curso de Qt (por Canal Fessor Bruno)
-- https://www.youtube.com/playlist?list=PLtWfwYlJPu5zqNYITJrT9fMyRadOjaxEM Curso de Qt5 PySide2 GUI
+- https://www.youtube.com/playlist?list=PLtWfwYlJPu5zqNYITJrT9fMyRadOjaxEM Curso de Qt5 PySide2 GUI (por Marcone)
 
 Em Inglês:
 
