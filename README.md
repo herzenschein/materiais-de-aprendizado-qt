@@ -106,6 +106,8 @@ Em Inglês:
 
 # Tutoriais de Qt oficiais da The Qt Company em Inglês
 
+Este conteúdo e mais é disponibilizado pela The Qt Company por meio do [Learning Hub](https://resources.qt.io/learning-hub), e é possível encontrar este material no QtCreator.
+
 - https://www.youtube.com/watch?v=-xhiVA0P4yk Qt Windows Online Installer walkthrough
 - https://www.youtube.com/watch?v=2RvhhEAZQxM Qt Widgets or Qt Quick
 - https://www.youtube.com/watch?v=zAqSiIGdj8M Meet Qt Creator
