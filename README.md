@@ -3,13 +3,21 @@ Este repositório contém materiais para estudar Qt em português e inglês.
 
 # O que é o Qt? Como posso usar o Qt?
 
+<details>
+  <summary>Clique aqui para ler</summary>
+  
 O [Qt](https://www.qt.io/) (pronunciado [/kjuːt/](https://upload.wikimedia.org/wikipedia/commons/7/73/En-us-cute.ogg), como a palavra cute do inglês) é um framework utilizado para criar aplicativos modernos para desktop, dispositivos móveis e embarcados. Ele é feito em C++ e permite escrever um mesmo código para múltiplas plataformas, como Linux, Windows, Mac e Android, dentre outros.
 
 O Qt extende o C++ e torna ele mais agradável para criar suas aplicações gráficas, e fornece também uma linguagem própria declarativa altamente produtiva, o QML. Ele inclui vários módulos, dentre eles o QtCore, o QtWidgets, o QtQuick, e outros.
 
 Ele possui duas licenças principais: uma LGPL e uma comercial. Os módulos do Qt licenciados como LGPL são de código aberto e permitem que você crie tanto aplicativos de código aberto quanto aplicativos proprietários, de código fechado, gratuitamente, [contanto se siga as condições da licença LGPL](https://www.qt.io/licensing/open-source-lgpl-obligations). Os módulos do Qt licenciados como comerciais fornecem funcionalidade extra e mais facilidades para desenvolvimento e integração em empresas, e o uso desta licença fornece suporte técnico, além de outros serviços. Há alguns poucos módulos que utilizam-se de outras licenças. Por exemplo, módulos que utilizam licença GPL obrigam seu aplicativo a ser de código aberto, embora seja perfeitamente possível lucrar em cima disso, contanto siga-se a licença. Módulos que utilizam licença MIT permitem um uso mais flexível para aplicativos proprietários. Leia [mais sobre isso aqui](https://doc.qt.io/qt-6/licenses-used-in-qt.html). É possível ver quais módulos seguem quais licenças na [página de funcionalidades do Qt](https://www.qt.io/product/features).
 
+</details>
+
 # Qual a diferença entre QtCore, QtWidgets, QtQuick e QML?
+
+<details>
+  <summary>Clique aqui para ler</summary>
 
 QtCore é um subconjunto de componentes do Qt especializado em aplicações **sem interface gráfica** (GUI). Ele é usado com C++ (e não QML), mas há language bindings para uso com outras linguagens, como Python. Vários dos seus componentes também estão disponíveis em módulos do QtWidgets e do QtQuick. Sua página inicial da documentação é esta: https://doc.qt.io/qt-6/qtcore-index.html e esta é a sua lista de classes C++: https://doc.qt.io/qt-6/qtcore-module.html. Dentre estas classes, as mais básicas são: [QCoreApplication](https://doc.qt.io/qt-6/qcoreapplication.html), [QDebug](https://doc.qt.io/qt-6/qdebug.html), [QString](https://doc.qt.io/qt-6/qstring.html), [QFile](https://doc.qt.io/qt-6/qfile.html), [QList](https://doc.qt.io/qt-6/qlist.html) e [QVariant](https://doc.qt.io/qt-6/qvariant.html).
 
@@ -23,7 +31,12 @@ Existem outros componentes do Qt que interessam para quem pretende programar com
 
 Outros componentes interessantes do Qt são o [QtGUI](https://doc-snapshots.qt.io/qt6-dev/qtgui-overview.html), que fornece alguns componentes de interface essenciais como [QGuiApplication](https://doc-snapshots.qt.io/qt6-dev/qguiapplication.html), [QAction](https://doc-snapshots.qt.io/qt6-dev/qaction.html) e [QColor](https://doc-snapshots.qt.io/qt6-dev/qcolor.html); o [QtQuick3D](https://doc-snapshots.qt.io/qt6-dev/qtquick3d-index.html), que permite trabalhar com modelos 3D usando QML; o [QtWebEngine](https://doc.qt.io/qt-6/qtwebengine-overview.html), que permite trabalhar com páginas da web diretamente, seja com C++ ou QML; e o [Qt for MCUs](https://doc.qt.io/QtForMCUs-2.1/), que foca em aplicativos com interface gráfica em embarcados.
 
+</details>
+
 # Que linguagens posso usar para desenvolver em Qt?
+
+<details>
+  <summary>Clique aqui para ler</summary>
 
 A linguagem principal usada para desenvolver em Qt é o C++. O framework em si é feito em C++, assim como a IDE principal do Qt, o QtCreator. Caso queira aprender C++, dê uma olhada no [material de aprendizado do cppbrasil](https://github.com/cppbrasil/material-de-aprendizado).
 
@@ -33,8 +46,12 @@ A The Qt Company também oficialmente suporta o Python por meio do PySide2, [ou 
 
 Há também [outros language bindings](https://wiki.qt.io/Language_Bindings) para o Qt. Notavelmente, o Rust tem ganhado popularidade recentemente, e para ele estão disponíveis o [Rust-Qt/Ritual](https://rust-qt.github.io/), que fornece bindings Rust -> C++; o [QMetaObject-rs](https://github.com/woboq/qmetaobject-rs), que fornece bindings Rust -> QML; o [Rust-Qt-Binding-Generator](https://invent.kde.org/sdk/rust-qt-binding-generator), desenvolvido pela KDE, que permite criar código feito em Rust que é utilizável em código Qt/QML. Há também o [QtJambi](https://github.com/OmixVisualization/qtjambi/wiki) para Java, o [Qt for Go](https://github.com/therecipe/qt), para Golang, e o [NodeGui](https://github.com/nodegui/nodegui), para NodeJS.
 
+</details>
 
 # Onde/como posso ler a documentação da API do Qt?
+
+<details>
+  <summary>Clique aqui para ler</summary>
 
 A documentação do Qt reside em https://doc.qt.io/. É recomendável que você utilize a documentação mais atual, do Qt6, porém a documentação do Qt5 pode ser útil especialmente quando se trata do processo de compilação e gerenciamento de recursos, que foi bastante simplificado com a vinda do Qt6 e a transição do QMake pro CMake.
 
@@ -52,13 +69,19 @@ Uma vez que você passar para materiais de referência, como descrições de cla
 
 Se você for iniciante e estiver tendo dificuldade com o QtWidgets em particular e sentir como se estivesse faltando alguma informação que parece óbvia mas você não está captando, talvez esteja faltando o conhecimento necessário de C++. Neste caso, você pode acessar o [material de aprendizado do cppbrasil](https://github.com/cppbrasil/material-de-aprendizado) ou focar no QtCore, que é essencialmente um C++ mais agradável de aprender.
 
+</details>
+
 # Rota de aprendizado para iniciantes
 
-...
+<details>
+  <summary>Clique aqui para ler</summary>
 
-<!-- 
-Adicionar uma sugestão de rota de aprendizado de componentes de QtCore/QtWidgets/QtQuick para iniciantes.
--->
+  Não há nada aqui ainda. Contribua mandando um pull request! :)
+  
+  Esta seção irá conter uma referência a conceitos, classes/tipos e links para as referências necessárias em uma sequência razoável para que um iniciante em Qt possa adquirir o conhecimento para criar suas próprias aplicações com alguma independência.
+  
+</details>
+
 
 # Canais para seguir
 - https://www.youtube.com/c/QtStudios The Qt Company
@@ -101,7 +124,10 @@ Em Inglês:
 - https://www.youtube.com/watch?v=9xqhq9nDiOg Qt SCXML and state machine tooling in Qt Creator
 
 
-# Talks de Qt oficiais da The Qt Company em Inglês
+# Talks de Qt oficiais da The Qt Company em Inglês (material opcional)
+
+<details>
+  <summary>Clique aqui para ver o material opcional</summary>
 
 - https://www.youtube.com/watch?v=nmvurCcsWos All You Need to Get Your App Done with Qt for Android | Tools | #QtWS21
 - https://www.youtube.com/watch?v=3o2Wo4YzlII QtWS17 - Android & iOS - put your app on a diet, Maciej Węglarczyk, GameDesire
@@ -126,6 +152,8 @@ Em Inglês:
 - https://www.youtube.com/watch?v=pN0pRBUqrrc The New Property Bindings: Making C++ more QMLish | Platform | #QtWS21
 - https://www.youtube.com/watch?v=W3WC-VpKdGQ WEBASM with Qt - Qt for WebAssembly
 
+</details>
+  
 # QtCore
 Em Português:
 
