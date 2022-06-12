@@ -149,4 +149,5 @@ Em Português:
 - https://github.com/cppbrasil/material-de-aprendizado Materiais de aprendizado para C++
 
 Em Inglês:
+- https://qmlonline.kde.org/ Prototipe programas em QML direto pelo navegador
 - https://github.com/mikalv/awesome-qt-qml Programas feitos em QtQuick/QML
