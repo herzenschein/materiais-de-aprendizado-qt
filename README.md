@@ -36,7 +36,21 @@ Há também [outros language bindings](https://wiki.qt.io/Language_Bindings) par
 
 # Onde/como posso ler a documentação da API do Qt?
 
-...
+A documentação do Qt reside em https://doc.qt.io/. É recomendável que você utilize a documentação mais atual, do Qt6, porém a documentação do Qt5 pode ser útil especialmente quando se trata do processo de compilação e gerenciamento de recursos, que foi bastante simplificado com a vinda do Qt6 e a transição do QMake pro CMake.
+
+Há também a [wiki do Qt](https://wiki.qt.io/Main), que pode ser particularmente útil para os recursos mais utilizados. Atente para não acabar visualizando uma página deprecada ou conteúdo que não foi atualizado, que pode comumente ocorrer ao utilizar a pesquisa de um motor de busca como o DuckDuckGo ou o Google.
+
+Caso esteja utilizando o instalador oficial da The Qt Company para instalar o Qt e a sua IDE principal, o QtCreator, você terá toda a documentação disponível no QtCreator offline e por padrão. No lado esquerdo do QtCreator, há uma aba chamada Help que permite acessar toda a documentação. Já no editor, é possível apertar F1 para ativar um painel lateral exibindo a documentação referente ao termo em que o cursor está parado, e apertar F1 novamente irá abrir a página da documentação visualizada, porém na aba Help, usando mais espaço. 
+
+Em sistemas Linux, ao instalar o Qt/QtCreator pelo repositório, a documentação do Qt costuma ser encontrada em /usr/share/docs. Caso não esteja presente após a instalação, geralmente é possível instalar pacotes específicos nos repositórios que contenham os pacotes de documentação, assim como os de exemplos e tutoriais. Os pacotes costumam ter a extensão -doc e a documentação vem como arquivos QCH (formato específico do Qt) ou arquivos HTML. Uma vez presentes no seu sistema, é possível abrir os arquivos diretamente ou ver a documentação no QtCreator.
+
+Caso você utilize o KDevelop, é possível configurar a IDE para que use a documentação instalada em /usr/share/docs de maneira similar ao QtCreator.
+
+Quanto à documentação do Qt em si, você verá que ela é extensa e bastante clara, porém pode ser bastante técnica. Há três tipos de documentação: visão geral, exemplos, e referência de classe C++/tipo QML. Caso esteja começando, veja primeiro as principais páginas de visão geral, que costumam ter explicações detalhadas e exemplos simples, como [Layout Management](https://doc.qt.io/qt-6/layout.html), o [QML Object Attributes](https://doc.qt.io/qt-6/qtqml-syntax-objectattributes.html) ou o [Getting Started with CMake](https://doc.qt.io/qt-6/cmake-get-started.html), por exemplo. Após ler as páginas mais importantes de visão geral da documentação, você pode tentar colocar a mão na massa e replicar os exemplos. Caso esteja difícil, tente ver um canal ou curso introdutório de Qt, ou seguir a Rota de Aprendizado a seguir.
+
+Uma vez que você passar para materiais de referência, como descrições de classes como o [QList](https://doc.qt.io/qt-6/qlist.html) ou tipos como o [ColorAnimation](https://doc.qt.io/qt-5/qml-qtquick-coloranimation.html), lembre-se: para verificar tudo de que uma classe é realmente capaz, clique em "List of all members, including inherited members". Assim é possível ver as propriedades e funções das classes pai, que também podem ser usadas pela classe/tipo sendo visualizada. O ColorAnimation é um bom exemplo disso.
+
+Se você for iniciante e estiver tendo dificuldade com o QtWidgets em particular e sentir como se estivesse faltando alguma informação que parece óbvia mas você não está captando, talvez esteja faltando o conhecimento necessário de C++. Neste caso, você pode acessar o [material de aprendizado do cppbrasil](https://github.com/cppbrasil/material-de-aprendizado) ou focar no QtCore, que é essencialmente um C++ mais agradável de aprender.
 
 # Rota de aprendizado para iniciantes
 
