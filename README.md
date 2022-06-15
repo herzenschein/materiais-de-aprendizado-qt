@@ -173,6 +173,8 @@ Em Português:
 
 Em Inglês:
 
+- https://www.qt.io/product/qt6/qml-book O livro de QML6 oficial da TQC baseado no qmlbook de Cadaques
+- https://qmlbook.github.io/ O livro de QML5 original por Cadaques
 
 # Outros links
 Em Português:
