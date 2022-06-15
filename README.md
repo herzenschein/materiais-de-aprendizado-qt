@@ -212,6 +212,6 @@ As diretrizes para contribuir são as seguintes:
 * Se o curso for em multimídia, **dê preferência a autores de boa pronúncia/com áudio decente**.
 * Materiais complementares de CMake são aceitos, **mas em sua própria seção**.
 * Materiais complementares de C++ são aceitos, **mas em sua própria seção**. Prefira contribuir diretamente ao [material de aprendizado do cppbrasil](https://github.com/cppbrasil/material-de-aprendizado) ou ao [livro de C++](https://github.com/tarcisiofischer/livrocpp).
-* Caso não haja objeções durante o pull request, o material será incluso. A ideia do repositório é ser completo; **é preferível adicionar antes e vetar depois** do que restringir desnecessariamente a inclusão de material.
+* Caso não haja objeções durante o pull request, o material será incluso. A ideia do repositório é ser completo; **é preferível adicionar antes e vetar depois** do que restringir desnecessariamente a inclusão de material. **A única exceção são cursos pagos**, que precisam de veto para garantir a qualidade antes de serem inclusos.
 
   </details>
