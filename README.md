@@ -198,6 +198,9 @@ Em Inglês:
 
 # Contribuindo
 
+<details>
+  <summary>Clique aqui para ler</summary>
+
 As diretrizes para contribuir são as seguintes:
 
 * A licença deste readme é GPLv3, porque sim.
@@ -210,3 +213,5 @@ As diretrizes para contribuir são as seguintes:
 * Materiais complementares de CMake são aceitos, mas em sua própria seção.
 * Materiais complementares de C++ são aceitos, mas em sua própria seção. Prefira contribuir diretamente ao [material de aprendizado do cppbrasil](https://github.com/cppbrasil/material-de-aprendizado) ou ao [livro de C++](https://github.com/tarcisiofischer/livrocpp).
 * Caso não haja objeções durante o pull request, o material será incluso. A ideia do repositório é ser completo; é preferível adicionar antes e vetar depois do que restringir desnecessariamente a inclusão de material.
+
+  </details>
