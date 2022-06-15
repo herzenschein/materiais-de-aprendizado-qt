@@ -194,6 +194,8 @@ Em Inglês:
 - https://github.com/mikalv/awesome-qt-qml Programas feitos em QtQuick/QML
 - https://wiki.manjaro.org/index.php/List_of_Qt_Applications Lista extensa de aplicativos feitos em Qt
 - https://inqlude.org/ Lista extensa de bibliotecas feitas em Qt
+- https://doc.qt.io/qt-6/best-practices.html Coletânea de boas práticas de programação em Qt oficial
+- https://github.com/Furkanzmc/QML-Coding-Guide Coletânea de boas práticas de programação em QML
 - https://doc.qt.io/archives/qq/qq13-apis.html Explicando o design da API do Qt
 - https://wiki.qt.io/API_Design_Principles O material de referência do design da API do Qt
 
