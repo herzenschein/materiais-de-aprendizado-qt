@@ -160,12 +160,19 @@ Este conteúdo e mais é disponibilizado pela The Qt Company por meio do [Learni
 Em Português:
 
 Em Inglês:
+- https://www.udemy.com/course/qt-6-core-beginners-with-cpp/ Qt6 Core for Beginners with C++ por Bryan Cairns (pago)
+- https://www.udemy.com/course/qt-6-core-intermediate/ Qt6 Core Intermediate with C++ por Bryan Cairns (pago)
+- https://www.udemy.com/course/qt-6-core-advanced/ Qt6 Core Advanced with C++ por Bryan Cairns (pago)
+- https://www.udemy.com/course/qt-core-for-beginners/ Qt5 Core for Beginners with C++ por Bryan Cairns (pago)
+- https://www.udemy.com/course/qt-core-intermediate/ Qt5 Core Intermediate with C++ por Bryan Cairns (pago)
+- https://www.udemy.com/course/qt-core-advanced/ Qt5 Core Advanced with C++ por Bryan Cairns (pago)
 
 
 # QtWidgets
 Em Português:
 
 Em Inglês:
+- https://www.udemy.com/course/qt-widgets-beginners/ Qt5 Widgets for Beginners por Bryan Cairns (pago)
 
 
 # QtQuick
@@ -175,13 +182,31 @@ Em Inglês:
 
 - https://www.qt.io/product/qt6/qml-book O livro de QML6 oficial da TQC baseado no qmlbook de Cadaques
 - https://qmlbook.github.io/ O livro de QML5 original por Cadaques
+- https://www.udemy.com/course/qml-for-beginners/ QML5 for Beginners por Bryan Cairns (pago)
 
 # Outros links
 Em Português:
 - https://github.com/cppbrasil/material-de-aprendizado Materiais de aprendizado para C++
+- https://t.me/qtbrasil O grupo oficial do QtBrasil no Telegram
 
 Em Inglês:
 - https://qmlonline.kde.org/ Prototipe programas em QML direto pelo navegador
 - https://github.com/mikalv/awesome-qt-qml Programas feitos em QtQuick/QML
 - https://doc.qt.io/archives/qq/qq13-apis.html Explicando o design da API do Qt
 - https://wiki.qt.io/API_Design_Principles O material de referência do design da API do Qt
+
+
+# Contribuindo
+
+As diretrizes para contribuir são as seguintes:
+
+* A licença deste readme é GPLv3, porque sim.
+* Material em inglês é permitido, mas dê preferência a material em português brasileiro, caso exista/você conheça.
+* Material pago é permitido, mas dê preferência a material gratuito, caso exista. Em toda lista, o material pago deve aparecer abaixo.
+* Material de Qt4 _de referência_ é permitido apenas como material complementar (ou seja, na seção Outros links ou outra futura para isso).
+* Material de Qt4 _que não seja de referência_ é permitido (ou seja, na seção Outros links).
+* Dê preferência a autores de renome/especialistas.
+* Se o curso for em multimídia, dê preferência a autores de boa pronúncia/com áudio decente.
+* Materiais complementares de CMake são aceitos, mas em sua própria seção.
+* Materiais complementares de C++ são aceitos, mas em sua própria seção. Prefira contribuir diretamente ao [material de aprendizado do cppbrasil](https://github.com/cppbrasil/material-de-aprendizado) ou ao [livro de C++](https://github.com/tarcisiofischer/livrocpp).
+* Caso não haja objeções durante o pull request, o material será incluso. A ideia do repositório é ser completo; é preferível adicionar antes e vetar depois do que restringir desnecessariamente a inclusão de material.
