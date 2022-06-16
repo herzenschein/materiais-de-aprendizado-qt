@@ -84,35 +84,46 @@ Se você for iniciante e estiver tendo dificuldade com o QtWidgets em particular
 
 
 # Canais para seguir
+
 - https://www.youtube.com/c/QtStudios The Qt Company
 - https://www.youtube.com/channel/UCpnk1I7ThHtKn4UYkuaO7Qg QtCon Brasil
 - https://www.youtube.com/c/KDABtv KDAB TV
 - https://www.youtube.com/c/KdeOrg The KDE Community
 
 # Introduções ao Qt
+
 Em Português:
 - https://ppgesp.ifba.edu.br/dl47 Introdução ao Qt/QtWidgets (por Sandro Andrade)
 - https://agostinhobritojr.github.io/tutorial/qt/index.html Introdução à programação em Qt (por Agostinho Brito Jr.)
-- https://programacaoqt.wordpress.com/ Aprendendo Qt com o projeto Octopi (por Alexandre Albuquerque Arnt)
 - https://www.youtube.com/playlist?list=PLIJWe5QVy1ZpqVmC7DEBoa-8OdxJyg3vY Maratona Qt 2020 (por Sandro Andrade)
-- https://www.youtube.com/playlist?list=PLx4x_zx8csUhzAyii9-cY-IJwo00p_5AC  Curso de Qt (por Canal Fessor Bruno)
 - https://youtu.be/QsVqnc6_SgQ QtCon Brasil 2020: Uma Introdução ao Qt for Python (por Mariana Meireles)
-- https://www.youtube.com/playlist?list=PLfQ7GQSrl0_ung_Wt0PpgOICqA8k6dr3i Curso de Python e PySide6 (por Wanderson) 
-- https://www.youtube.com/playlist?list=PLtWfwYlJPu5zqNYITJrT9fMyRadOjaxEM Curso de Qt5 PySide2 GUI (por Marcone)
 
 Em Inglês:
-
-- https://www.youtube.com/playlist?list=PLizsthdRd0Ywl59atMhNyCydPrb6xz8wN Playlist de tutoriais oficiais da TheQtCompany
 - https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc Introduction to Qt/QML (por KDAB)
+- https://youtu.be/Ftm68AzYvr8 Akademy 2021: Qt for Python (por Anupam Basak)
+
+# Cursos completos de Qt
+
+Em Português:
+- https://www.youtube.com/playlist?list=PLx4x_zx8csUhzAyii9-cY-IJwo00p_5AC  Curso de Qt (por Canal Fessor Bruno)
+
+Em Inglês:
 - https://www.youtube.com/playlist?list=PL2D1942A4688E9D63 C++ Qt Programming (por Bryan Cairns)
 - https://www.youtube.com/playlist?list=PLUbFnGajtZlXbrbdlraCe3LMC_YH5abao Qt 6 With C++ (por Bryan Cairns)
-- https://youtu.be/Ftm68AzYvr8 Akademy 2021: Qt for Python (por Anupam Basak)
-- https://www.youtube.com/playlist?list=PLfQ7GQSrl0_sD1QIopcYA9GTDUA0nOox5 Qt Quick and Python (por Wanderson)
 
+# Livros
+
+Em Português:
+- https://programacaoqt.wordpress.com/ Aprendendo Qt com o projeto Octopi (por Alexandre Albuquerque Arnt)
+
+Em Inglês:
+- https://wiki.qt.io/Books Lista extensa de livros ensinando Qt
 
 # Tutoriais de Qt oficiais da The Qt Company em Inglês
 
-Este conteúdo e mais é disponibilizado pela The Qt Company por meio do [Learning Hub](https://resources.qt.io/learning-hub), e é possível encontrar este material no QtCreator.
+- https://www.youtube.com/playlist?list=PLizsthdRd0Ywl59atMhNyCydPrb6xz8wN Playlist de tutoriais oficiais da TheQtCompany
+
+O seguinte conteúdo e mais é disponibilizado pela The Qt Company por meio do [Learning Hub](https://resources.qt.io/learning-hub), e é possível encontrar este material no QtCreator.
 
 - https://www.youtube.com/watch?v=-xhiVA0P4yk Qt Windows Online Installer walkthrough
 - https://www.youtube.com/watch?v=2RvhhEAZQxM Qt Widgets or Qt Quick
@@ -163,6 +174,7 @@ Este conteúdo e mais é disponibilizado pela The Qt Company por meio do [Learni
 </details>
   
 # QtCore
+
 Em Português:
 
 Em Inglês:
@@ -173,8 +185,8 @@ Em Inglês:
 - https://www.udemy.com/course/qt-core-intermediate/ Qt5 Core Intermediate with C++ por Bryan Cairns (pago)
 - https://www.udemy.com/course/qt-core-advanced/ Qt5 Core Advanced with C++ por Bryan Cairns (pago)
 
-
 # QtWidgets
+
 Em Português:
 
 Em Inglês:
@@ -182,17 +194,26 @@ Em Inglês:
 
 
 # QtQuick
-Em Português:
 
+Em Português:
 - https://youtu.be/PgmrFTV9ric QtCon Brasil 2020: Prototipagem Rápida com QML (por Patrick Pereira)
 
 Em Inglês:
-
 - https://www.qt.io/product/qt6/qml-book O livro de QML6 oficial da TQC baseado no qmlbook de Cadaques
 - https://qmlbook.github.io/ O livro de QML5 original por Cadaques
 - https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc Introduction to Qt/QML por KDAB
 - https://www.youtube.com/playlist?list=PL6CJYn40gN6jWHP5krsQrVGyYtKh3A3be QML Tips and Tricks por KDAB
 - https://www.udemy.com/course/qml-for-beginners/ QML5 for Beginners por Bryan Cairns (pago)
+
+# PySide/PyQt
+
+Em Português:
+- https://www.youtube.com/playlist?list=PLfQ7GQSrl0_ung_Wt0PpgOICqA8k6dr3i Curso de Python e PySide6 (por Wanderson) 
+- https://www.youtube.com/playlist?list=PLtWfwYlJPu5zqNYITJrT9fMyRadOjaxEM Curso de Qt5 PySide2 GUI (por Marcone)
+- https://www.youtube.com/playlist?list=PLwsAoT89dh3qJ8JcprQ8AuHY8AGasvx4G Curso de PyQt5 (por Canal Eletrônica e Programação)
+
+Em Inglês:
+- https://www.youtube.com/playlist?list=PLfQ7GQSrl0_sD1QIopcYA9GTDUA0nOox5 Qt Quick and Python (por Wanderson)
 
 # Outros links
 Em Português:
@@ -200,10 +221,14 @@ Em Português:
 - https://t.me/qtbrasil O grupo oficial do QtBrasil no Telegram
 
 Em Inglês:
+- https://github.com/mikeroyal/Qt-Guide Mais recursos ainda para aprender Qt
+- https://planet.qt.io/ Agregador global de blogs relacionados ao Qt
 - https://qmlonline.kde.org/ Prototipe programas em QML direto pelo navegador
 - https://github.com/mikalv/awesome-qt-qml Programas feitos em QtQuick/QML
 - https://wiki.manjaro.org/index.php/List_of_Qt_Applications Lista extensa de aplicativos feitos em Qt
-- https://inqlude.org/ Lista extensa de bibliotecas feitas em Qt
+- https://inqlude.org/ Lista extensa de bibliotecas feitas em Qt com suporte oficial
+- https://insideqt.github.io/awesome-qt/ Mais uma lista extensa de software em Qt
+- https://github.com/JesseTG/awesome-qt E mais outra lista extensa de software em Qt
 - https://doc.qt.io/qt-6/best-practices.html Coletânea de boas práticas de programação em Qt oficial
 - https://github.com/Furkanzmc/QML-Coding-Guide Coletânea de boas práticas de programação em QML
 - https://doc.qt.io/archives/qq/qq13-apis.html Explicando o design da API do Qt
