@@ -96,13 +96,19 @@ Em Português:
 - https://programacaoqt.wordpress.com/ Aprendendo Qt com o projeto Octopi (por Alexandre Albuquerque Arnt)
 - https://www.youtube.com/playlist?list=PLIJWe5QVy1ZpqVmC7DEBoa-8OdxJyg3vY Maratona Qt 2020 (por Sandro Andrade)
 - https://www.youtube.com/playlist?list=PLx4x_zx8csUhzAyii9-cY-IJwo00p_5AC  Curso de Qt (por Canal Fessor Bruno)
+- https://youtu.be/QsVqnc6_SgQ QtCon Brasil 2020: Uma Introdução ao Qt for Python (por Mariana Meireles)
+- https://www.youtube.com/playlist?list=PLfQ7GQSrl0_ung_Wt0PpgOICqA8k6dr3i Curso de Python e PySide6 (por Wanderson) 
 - https://www.youtube.com/playlist?list=PLtWfwYlJPu5zqNYITJrT9fMyRadOjaxEM Curso de Qt5 PySide2 GUI (por Marcone)
 
 Em Inglês:
 
+- https://www.youtube.com/playlist?list=PLizsthdRd0Ywl59atMhNyCydPrb6xz8wN Playlist de tutoriais oficiais da TheQtCompany
 - https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc Introduction to Qt/QML (por KDAB)
 - https://www.youtube.com/playlist?list=PL2D1942A4688E9D63 C++ Qt Programming (por Bryan Cairns)
 - https://www.youtube.com/playlist?list=PLUbFnGajtZlXbrbdlraCe3LMC_YH5abao Qt 6 With C++ (por Bryan Cairns)
+- https://youtu.be/Ftm68AzYvr8 Akademy 2021: Qt for Python (por Anupam Basak)
+- https://www.youtube.com/playlist?list=PLfQ7GQSrl0_sD1QIopcYA9GTDUA0nOox5 Qt Quick and Python (por Wanderson)
+
 
 # Tutoriais de Qt oficiais da The Qt Company em Inglês
 
@@ -178,10 +184,14 @@ Em Inglês:
 # QtQuick
 Em Português:
 
+- https://youtu.be/PgmrFTV9ric QtCon Brasil 2020: Prototipagem Rápida com QML (por Patrick Pereira)
+
 Em Inglês:
 
 - https://www.qt.io/product/qt6/qml-book O livro de QML6 oficial da TQC baseado no qmlbook de Cadaques
 - https://qmlbook.github.io/ O livro de QML5 original por Cadaques
+- https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc Introduction to Qt/QML por KDAB
+- https://www.youtube.com/playlist?list=PL6CJYn40gN6jWHP5krsQrVGyYtKh3A3be QML Tips and Tricks por KDAB
 - https://www.udemy.com/course/qml-for-beginners/ QML5 for Beginners por Bryan Cairns (pago)
 
 # Outros links
