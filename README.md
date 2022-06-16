@@ -44,7 +44,9 @@ Também é possível criar programas em Qt usando a linguagem QML. O QML é uma 
 
 A The Qt Company também oficialmente suporta o Python por meio do PySide2 (de Qt5) / PySide6 (de Qt6), [ou Qt For Python](https://wiki.qt.io/Qt_for_Python). Alternativamente, há o [PyQt5 e PyQt6](https://riverbankcomputing.com/software/pyqt/), ambos mantidos pela Riverbank Computers. Este último, no entanto, não recebe suporte da The Qt Company.
 
-Há também [outros language bindings](https://wiki.qt.io/Language_Bindings) para o Qt. Notavelmente, o Rust tem ganhado popularidade recentemente, e para ele estão disponíveis o [Rust-Qt/Ritual](https://rust-qt.github.io/), que fornece bindings Rust -> C++; o [QMetaObject-rs](https://github.com/woboq/qmetaobject-rs), que fornece bindings Rust -> QML; o [Rust-Qt-Binding-Generator](https://invent.kde.org/sdk/rust-qt-binding-generator), desenvolvido pela KDE, que permite criar código feito em Rust que é utilizável em código Qt/QML. Há também o [QtJambi](https://github.com/OmixVisualization/qtjambi/wiki) para Java, o [Qt for Go](https://github.com/therecipe/qt), para Golang, e o [NodeGui](https://github.com/nodegui/nodegui), para NodeJS.
+Há também [outros language bindings](https://wiki.qt.io/Language_Bindings) para o Qt. Notavelmente, o Rust tem ganhado popularidade recentemente, e para ele estão disponíveis o [Rust-Qt/Ritual](https://rust-qt.github.io/), que fornece bindings Rust -> C++; o [QMetaObject-rs](https://github.com/woboq/qmetaobject-rs), que fornece bindings Rust -> QML; o [Rust-Qt-Binding-Generator](https://invent.kde.org/sdk/rust-qt-binding-generator), desenvolvido pela KDE, que permite criar código feito em Rust que é utilizável em código Qt/QML.
+  
+Há também o [QtJambi](https://github.com/OmixVisualization/qtjambi/wiki) para Java, o [Qt for Go](https://github.com/therecipe/qt), para Golang, e o [NodeGui](https://github.com/nodegui/nodegui), para NodeJS.
 
 </details>
 
