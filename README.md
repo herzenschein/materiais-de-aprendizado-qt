@@ -99,6 +99,7 @@ Em Português:
 - https://agostinhobritojr.github.io/tutorial/qt/index.html Introdução à programação em Qt (por Agostinho Brito Jr.)
 - https://www.youtube.com/playlist?list=PLIJWe5QVy1ZpqVmC7DEBoa-8OdxJyg3vY Maratona Qt 2020 (por Sandro Andrade)
 - https://youtu.be/QsVqnc6_SgQ QtCon Brasil 2020: Uma Introdução ao Qt for Python (por Mariana Meireles)
+- https://www.youtube.com/playlist?list=PL6oOWzm2QNuwGM1gUZkVm79jfvW9QaOpd Playlist introduzindo programação com QtQuick da KDE Brasil (por Patrick Pereira)
 
 Em Inglês:
 - https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc Introduction to Qt/QML (por KDAB)
@@ -201,6 +202,7 @@ Em Inglês:
 # QtQuick
 
 Em Português:
+- https://www.youtube.com/playlist?list=PL6oOWzm2QNuwGM1gUZkVm79jfvW9QaOpd Playlist introduzindo programação com QtQuick da KDE Brasil (por Patrick Pereira)
 - https://youtu.be/PgmrFTV9ric QtCon Brasil 2020: Prototipagem Rápida com QML (por Patrick Pereira)
 
 Em Inglês:
