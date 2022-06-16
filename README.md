@@ -80,6 +80,8 @@ Se você for iniciante e estiver tendo dificuldade com o QtWidgets em particular
   
   Esta seção irá conter uma referência a conceitos, classes/tipos e links para as referências necessárias em uma sequência razoável para que um iniciante em Qt possa adquirir o conhecimento para criar suas próprias aplicações com alguma independência.
   
+  Por enquanto, fique claro: o melhor material para QtQuick/QML atualmente é o [qmlbook](https://www.qt.io/product/qt6/qml-book).
+  
 </details>
 
 
@@ -112,13 +114,15 @@ Em Inglês:
 - https://www.youtube.com/playlist?list=PL2D1942A4688E9D63 C++ Qt Programming (por Bryan Cairns)
 - https://www.youtube.com/playlist?list=PLUbFnGajtZlXbrbdlraCe3LMC_YH5abao Qt 6 With C++ (por Bryan Cairns)
 
-# Livros
+# Livros para aprender Qt
 
 Em Português:
 - https://programacaoqt.wordpress.com/ Aprendendo Qt com o projeto Octopi (por Alexandre Albuquerque Arnt)
 
 Em Inglês:
 - https://wiki.qt.io/Books Lista extensa de livros ensinando Qt
+- https://www.qt.io/product/qt6/qml-book O livro de QML6 oficial da TQC baseado no qmlbook de Cadaques
+- https://qmlbook.github.io/ O livro de QML5 original por Cadaques
 
 # Tutoriais de Qt oficiais da The Qt Company em Inglês
 
