@@ -78,14 +78,17 @@ Se você for iniciante e estiver tendo dificuldade com o QtWidgets em particular
 <details>
   <summary>Clique aqui para ler</summary>
 
-  Não há nada aqui ainda. Contribua mandando um pull request! :)
+  Não há muito por aqui ainda. Contribua mandando um pull request! :)
   
   Esta seção irá conter uma referência a conceitos, classes/tipos e links para as referências necessárias em uma sequência razoável para que um iniciante em Qt possa adquirir o conhecimento para criar suas próprias aplicações com alguma independência.
   
   Por enquanto, fique claro: o melhor material para QtQuick/QML atualmente é o [qmlbook](https://www.qt.io/product/qt6/qml-book).
   
-<!--QtCore
+  Segue um rascunho dos componentes numa ordem razoável. Falta polir melhor a lista, achar mais overviews e explicar detalhes importantes de cada.
+  
+### QtCore
 
+  ```
 QCoreApplication
 qDebug, qInfo, qWarning, qCritical, qFatal
 QString, QChar, QByteArray
@@ -108,11 +111,11 @@ QJsonObject, QJsonDocument
 QXmlStreamReader, QXmlStreamWriter
 QEvent
 Timers, QTimer
+  ```
 
--->
+### QtWidgets
 
-<!--QtWidgets
-
+  ```
 QApplication
 QWidget, QDialog
 QLabel, QLineEdit, QTextEdit, QTextBrowser
@@ -132,9 +135,8 @@ QColumnView, QTableView, QTreeView
 QAbstractItemModel, QModelIndex
 QKeyEvent, QShortcut, QValidator
 Accessibility for QWidget Applications - https://doc.qt.io/qt-6/accessible-qwidget.html
-Internationalization with Qt - https://doc.qt.io/qt-6/internationalization.html
--->
-  
+Internationalization with Qt - https://doc.qt.io/qt-6/internationalization.html  
+  ```  
   
 </details>
 
