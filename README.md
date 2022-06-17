@@ -84,6 +84,33 @@ Se você for iniciante e estiver tendo dificuldade com o QtWidgets em particular
   
   Por enquanto, fique claro: o melhor material para QtQuick/QML atualmente é o [qmlbook](https://www.qt.io/product/qt6/qml-book).
   
+<!--QtCore
+
+QCoreApplication
+qDebug, qInfo, qWarning, qCritical, qFatal
+QString, QChar, QByteArray
+QStringView, QByteArrayView
+QTime, QTimeZone, QDate, QDateTime, QCalendar
+QRandomGenerator
+QPoint, QLine, QRect, QSize
+Object Trees and Ownership - https://doc.qt.io/qt-6/objecttrees.html
+Signals and Slots - https://doc.qt.io/qt-6/signalsandslots.html
+QFile, QDir, QUrl, QIODevice, QSettings, QSysInfo, QStandardPaths
+Qt Namespace, QFlags - https://doc.qt.io/qt-6/qt.html , https://doc.qt.io/qt-6/qflags.html
+Container Classes - https://doc.qt.io/qt-6/containers.html
+QList, QVector
+QMap, QSet
+QVariant, QIterator
+QStringList, QByteArrayList
+QCommandLineParser, QCommandLineOption 
+QJsonObject, QJsonDocument
+QXmlStreamReader, QXmlStreamWriter
+QEvent
+Timers, QTimer
+
+-->
+  
+  
 </details>
 
 
