@@ -96,7 +96,8 @@ QPoint, QLine, QRect, QSize
 Object Trees and Ownership - https://doc.qt.io/qt-6/objecttrees.html
 Signals and Slots - https://doc.qt.io/qt-6/signalsandslots.html
 QFile, QDir, QUrl, QIODevice, QSettings, QSysInfo, QStandardPaths
-Qt Namespace, QFlags - https://doc.qt.io/qt-6/qt.html , https://doc.qt.io/qt-6/qflags.html
+Qt Namespace - https://doc.qt.io/qt-6/qt.html
+QFlags - https://doc.qt.io/qt-6/qflags.html
 Container Classes - https://doc.qt.io/qt-6/containers.html
 QList, QVector
 QMap, QSet
@@ -108,6 +109,30 @@ QXmlStreamReader, QXmlStreamWriter
 QEvent
 Timers, QTimer
 
+-->
+
+<!--QtWidgets
+
+QApplication
+QWidget, QDialog
+QLabel, QLineEdit, QTextEdit, QTextBrowser
+QPushButton, QRadioButton, QCheckBox, QComboBox, QSpinBox, QSlider
+QDial, QProgressBar
+QScrollArea
+Layout Management - https://doc.qt.io/qt-6/layout.html
+QHBoxLayout, QVBoxLayout, QGridLayout, QFormLayout
+QAction
+QMainWindow, QMenu, QMenuBar
+QToolBar, QTabWidget
+QColor, QFont, QIcon, QImage, QStyle
+Model/View Programming - https://doc.qt.io/qt-6/model-view-programming.html
+Model/View Tutorial - https://doc.qt.io/qt-6/modelview.html
+QListView
+QColumnView, QTableView, QTreeView
+QAbstractItemModel, QModelIndex
+QKeyEvent, QShortcut, QValidator
+Accessibility for QWidget Applications - https://doc.qt.io/qt-6/accessible-qwidget.html
+Internationalization with Qt - https://doc.qt.io/qt-6/internationalization.html
 -->
   
   
