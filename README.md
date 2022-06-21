@@ -86,103 +86,104 @@ Se você for iniciante e estiver tendo dificuldade com o QtWidgets em particular
   
   Segue um rascunho dos componentes numa ordem razoável. Falta polir melhor a lista, achar mais overviews e explicar detalhes importantes de cada.
   
-### QtCore
+  ---
+  
+## QtCore
 
-  ```
-QCoreApplication
+### QCoreApplication
 
 É necessário entender como utilizar o construtor e a função exec(). Também pode-se aprender as funções usadas para dar crédito ao desenvolvedor ou nomear o aplicativo. Mais tarde, estudar o quit() e o aboutToQuit().
 
-qDebug, qInfo, qWarning, qCritical, qFatal
+### qDebug, qInfo, qWarning, qCritical, qFatal
 
 É necessário entender como redirecionar dados para o qDebug. Em seguida, verificar os tipos de log possíveis e quando usá-los.
 
-QString, QChar, QByteArray
+### QString, QChar, QByteArray
 
 É necessário entender a funcionalidade do QString que difere do std::string, especialmente os construtores e as funções de conveniência para casting. QChar complementa o QString e o QByteArray convém para buffers.
 
-QStringView, QByteArrayView
+### QStringView, QByteArrayView
 
 Estas classes são simples: servem apenas para segurança e boas práticas.
 
-QTime, QTimeZone, QDate, QDateTime, QCalendar
+### QTime, QTimeZone, QDate, QDateTime, QCalendar
 
 As classes que lidam com tempo, não devem ser trabalhosas de aprender. Posteriormente, estas classes são úteis para manipular Timers.
 
-QRandomGenerator
+### QRandomGenerator
 
 É necessário entender o generate() e o bounded().
 
-QPoint, QLine, QRect, QSize
+### QPoint, QLine, QRect, QSize
 
 As classes que lidam com manipulação de gráficos, não são estritamente necessárias, excetuando QSize pelo construtor de conveniência que serve de argumento para outras classes.
 
-Object Trees and Ownership - https://doc.qt.io/qt-6/objecttrees.html
+### Object Trees and Ownership - https://doc.qt.io/qt-6/objecttrees.html
 
 Introdução ao gerenciamento de memória do Qt: o importante é saber que a memória do objeto filho é liberada assim que o objeto pai morre.
 
-Signals and Slots - https://doc.qt.io/qt-6/signalsandslots.html
+### Signals and Slots - https://doc.qt.io/qt-6/signalsandslots.html
 
 Introdução à maior conveniência do Qt: basta dizer que sinal emitir, que objeto está emitindo o sinal, que ação deve ocorrer, e que objeto recebe o sinal e executa a ação, e o seu aplicativo se torna interativo. É necessário entender que QObjects são obrigatórios para isso.
 
-QFile, QDir, QUrl, QIODevice, QSettings, QSysInfo, QStandardPaths
+### QFile, QDir, QUrl, QIODevice, QSettings, QSysInfo, QStandardPaths
 
 As classes de manipulação/navegação no sistema de arquivos. Na prática, o QIODevice é útil de início apenas pelo seu enum. Mais tarde pode ser útil aprender a manipular dados com sua subclasse.
 
-Qt Namespace - https://doc.qt.io/qt-6/qt.html
+### Qt Namespace - https://doc.qt.io/qt-6/qt.html
 
 É necessário se familiarizar com seus enums.
 
-QFlags - https://doc.qt.io/qt-6/qflags.html
+### QFlags - https://doc.qt.io/qt-6/qflags.html
 
 Não é necessário, mas convém entender como criar enums convenientes e seguros com QFlags.
 
-Container Classes - https://doc.qt.io/qt-6/containers.html
+### Container Classes - https://doc.qt.io/qt-6/containers.html
 
 Introdução às classes de container.
 
-QList, QVector
+### QList, QVector
 
 A classe de container principal. QVector, comum no Qt5, foi deprecado. É absolutamente necessário para todo o conteúdo seguinte do QtCore.
 
-QMap, QSet
+### QMap, QSet
 
 Equivalentes ao std::map e std::set, estes são necessários para manipulação de dados com chaves de informação; o QMap em particular é necessário para trabalhar com o QVariantMap, que pode ser usado com QJSon e QXmlStream.
 
-QVariant, QIterator
+### QVariant, QIterator
 
 QVariant é absolutamente necessário antes de continuar. O QVariant é necessário para qualquer estrutura de dados mais complexa, assim funções como QVariantList e QVariantMap, e é necessário para a integração entre código C++ e QML no QtQuick. Na página do QIterator, veja QSequentialIterable e QAssociativeIterable para manipulação de dados de um QVariant.
 
-QStringList, QByteArrayList
+### QStringList, QByteArrayList
 
 Os tipos de QList mais comuns.
 
-QVariantList, QVariantMap
+### QVariantList, QVariantMap
 
 Estes tipos são necessários para estruturas de dados mais complexas.
 
-QCommandLineParser, QCommandLineOption
+### QCommandLineParser, QCommandLineOption
 
 O suporte à linha de comando do Qt é muito bom. Não é estritamente necessário, mas permite contribuir facilmente para programas feitos em Qt com base de código significativa, além de permitir tradução da página de ajuda. É necessário entender o papel do int argc (quantidade de argumentos) e do char* argv[] (lista de argumentos) de programas C++. Foque em addPositionalArgument() e no QCommandLineOption.
 
-QJsonObject, QJsonDocument
+### QJsonObject, QJsonDocument
 
 Classes de manipulação de JSON, não devem ser trabalhosas de aprender.
 
-QXmlStreamReader, QXmlStreamWriter
+### QXmlStreamReader, QXmlStreamWriter
 
 Classes de manipulação de XML, requer entendimento de Document Object Model (DOM).
 
-QEvent
+### QEvent
 
 De início, basta focar nas opções disponíveis de seu enum. Mais tarde, ao estudar QtWidgets, convém voltar a esta classe para ver suas classes derivadas, uma vez que são necessárias para manipular eventos de interface ou dispositivos de entrada (mouse, teclado).
 
-Timers, QTimer - https://doc.qt.io/qt-6/timers.html
+### Timers, QTimer - https://doc.qt.io/qt-6/timers.html
 
 Esta classe permite controlar quando eventos devem ser ativados, especialmente via temporizador. Mesmo que não seja particularmente útil para você, pode ser útil para facilmente testar novas classes conforme são aprendidas.
 
-  ```
-
+---
+  
 ### QtWidgets
 
   ```
