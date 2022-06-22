@@ -94,8 +94,6 @@ Se você for iniciante e estiver tendo dificuldade com o QtWidgets em particular
 
 Importância: Alta
 
-Dificuldade: Simples
-
 Para iniciantes: Aprender como utilizar o construtor e a função exec() é todo o necessário para continuar estudando (isso é válido para o QCoreApplication, QGuiApplication e QApplication). Adicionalmente, aprender as funções usadas para fornecer informações sobre o aplicativo.
 
 Quando retornar: Após aprender sobre signals e slots, verificar as funções quit() e aboutToQuit().
@@ -105,8 +103,6 @@ Pulável: Não
 ### qDebug, qInfo, qWarning, qCritical, qFatal
 
 Importância: Alta, Média, Média, Média, Alta
-
-Dificuldade: Simples
 
 Para iniciantes: Aprender como printar dados na tela. Adicionalmente, aprender os níveis de logging e quando usá-los.
 
