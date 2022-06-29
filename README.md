@@ -98,7 +98,7 @@ Para iniciantes: Aprender como utilizar o construtor e a função exec() é todo
 
 Quando retornar: Após aprender sobre signals e slots, verificar as funções quit() e aboutToQuit().
 
-Pulável: Não
+Essencial: Sim
 
 ### qDebug, qInfo, qWarning, qCritical, qFatal
 
@@ -108,7 +108,7 @@ Para iniciantes: Aprender como printar dados na tela. Adicionalmente, aprender o
 
 Quando retornar:
 
-Pulável: Não
+Essencial: Sim
 
 ### QString, QChar, QByteArray
 
@@ -118,7 +118,7 @@ Para iniciantes: Focar nas funções de manipulação de strings e de casting.
 
 Quando retornar: Ao estudar QTextStream, assim como quaisquer classes QtWidgets que focam em texto, como QLineEdit e QTextEdit.
 
-Pulável: Não
+Essencial: Sim
 
 ### QStringView, QByteArrayView
 
@@ -128,7 +128,7 @@ Para iniciantes: Use sempre que não for modificar uma string.
 
 Quando retornar: Quando estiver confiante em lidar com programas em C++ ou Qt e quiser adicionar uma camada a mais de segurança.
 
-Pulável: Sim
+Essencial: Não
 
 ### QTime, QTimeZone, QDate, QDateTime, QCalendar
 
@@ -138,7 +138,7 @@ Para iniciantes:
 
 Quando retornar: Após aprender sobre timers.
 
-Pulável: Sim
+Essencial: Não
 
 ### QRandomGenerator
 
@@ -148,8 +148,7 @@ Para iniciantes: Focar nas funções generate() e bounded().
 
 Quando retornar:
 
-Pulável: Sim
-
+Essencial: Não
 
 ### QPoint, QLine, QRect, QSize
 
@@ -159,9 +158,7 @@ Para iniciantes: O QSize é comumente utilizado como argumento em funções de o
 
 Quando retornar: Ao começar a lidar com gráficos e multimídia.
 
-Pulável: Sim
-
-As classes que lidam com manipulação de gráficos, não são estritamente necessárias, excetuando QSize pelo construtor de conveniência que serve de argumento para outras classes.
+Essencial: Não
 
 ### Object Trees and Ownership - https://doc.qt.io/qt-6/objecttrees.html
 
@@ -171,7 +168,7 @@ Para iniciantes: Focar no conceito principal de gerenciamento de memória: se o 
 
 Quando retornar: Sempre que for lidar com QObjects direta ou indiretamente.
 
-Pulável: Não
+Essencial: Sim
 
 ### Signals and Slots - https://doc.qt.io/qt-6/signalsandslots.html
 
@@ -181,7 +178,7 @@ Para iniciantes: Focar em: como criar signals e slots, sintaxe do QObject::conne
 
 Quando retornar: Ao começar a estudar QtWidgets ou QtQuick.
 
-Pulável: Não
+Essencial: Sim
 
 ### QFile, QDir, QUrl, QIODevice, QSettings, QSysInfo, QStandardPaths
 
@@ -191,7 +188,7 @@ Para iniciantes: Focar nas funções de abrir e fechar arquivos com QFile, no en
 
 Quando retornar: Quando for lidar com documentos como JSON/XML, quando for lidar com QActions, assim como com diálogos do QtWidgets e QtQuick.
 
-Pulável: Não
+Essencial: Sim
 
 ### Qt Namespace - https://doc.qt.io/qt-6/qt.html
 
@@ -201,7 +198,7 @@ Para iniciantes: Foque nos enums disponíveis para o Qt e veja as classes pertin
 
 Quando retornar:
 
-Pulável: Sim
+Essencial: Não
 
 ### QFlags - https://doc.qt.io/qt-6/qflags.html
 
@@ -211,7 +208,7 @@ Para iniciantes: Os QFlags são úteis para criar seus próprios enums de maneir
 
 Quando retornar:
 
-Pulável: Sim
+Essencial: Não
 
 ### Container Classes - https://doc.qt.io/qt-6/containers.html
 
@@ -221,9 +218,7 @@ Para iniciantes: Se você tiver experiência com classes de container e iterador
 
 Quando retornar:
 
-Pulável: Não
-
-Introdução às classes de container.
+Essencial: Sim
 
 ### QList, QVector
 
@@ -233,7 +228,7 @@ Para iniciantes: Foque no QList do Qt6 e nas suas diferenças com os containers 
 
 Quando retornar: Quando for estudar qualquer descendente do QList.
 
-Pulável: Não
+Essencial: Sim
 
 ### QMap, QSet
 
@@ -243,7 +238,7 @@ Para iniciantes: Se você tiver experiência com std::map e std::set, não será
 
 Quando retornar: Quando for estudar o QVariant e o QVariantMap, que pode ser usado com QJSon e QXmlStream.
 
-Pulável: Não
+Essencial: Sim
 
 ### QVariant, QIterator
 
@@ -253,7 +248,7 @@ Para iniciantes: Se você tiver experiência com std::variant, não será difíc
 
 Quando retornar: Ao começar a estudar QtQuick.
 
-Pulável: Não
+Essencial: Sim
 
 ### QStringList, QByteArrayList
 
@@ -263,7 +258,7 @@ Para iniciantes: Se você tiver praticado lidar com o QList, não será difícil
 
 Quando retornar:
 
-Pulável: Sim
+Essencial: Não
 
 ### QTextStream
 
@@ -271,6 +266,8 @@ Importância: Baixa
 
 Para iniciantes: Esta classe é particularmente útil para implementar o equivalente a std::cout e std::cin, e age de maneira similar. Se você tiver praticado lidar com QString, QByteArray e QIODevice, não será difícil acompanhar.
 
+Essencial: Não
+  
 ### QVariantList, QVariantMap
 
 Importância: Alta, Alta
@@ -279,7 +276,7 @@ Para iniciantes: Se você tiver praticado lidar com QVariant, não será difíci
 
 Quando retornar: Ao começar a estudar QtQuick, ou ao lidar com QJSon e QXmlStream.
 
-Pulável: Não
+Essencial: Sim
 
 ### QCommandLineParser, QCommandLineOption
 
@@ -289,7 +286,7 @@ Para iniciantes: Excetuando o addPositionalArgument() de QCommandLineParser, o c
 
 Quando retornar:
 
-Pulável: Sim
+Essencial: Não
 
 ### QJsonObject, QJsonDocument
 
@@ -299,7 +296,7 @@ Para iniciantes: Se você tiver praticado lidar com QFile/QIODevice/QStandardPat
 
 Quando retornar:
 
-Pulável: Sim
+Essencial: Não
 
 ### QXmlStreamReader, QXmlStreamWriter
 
@@ -309,7 +306,7 @@ Para iniciantes: É necessário entendimento do Document Object Model (DOM), al�
 
 Quando retornar:
 
-Pulável: Sim
+Essencial: Não
 
 ### QEvent
 
@@ -319,7 +316,7 @@ Para iniciantes: De início, basta focar nas opções disponíveis de seu enum. 
 
 Quando retornar: Ao lidar com os signals e slots de QtWidgets.
 
-Pulável: Não
+Essencial: Sim
 
 ### Timers, QTimer - https://doc.qt.io/qt-6/timers.html
 
@@ -329,7 +326,7 @@ Para iniciantes: Excetuando callOnTimeout(), não será difícil acompanhar. Mes
 
 Quando retornar: Quando você começar a fazer conexões entre eventos mais complexas com QtWidgets.
 
-Pulável: Sim
+Essencial: Não
 
 ---
   
