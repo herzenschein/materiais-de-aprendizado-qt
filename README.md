@@ -464,6 +464,9 @@ Em Inglês:
 - https://www.udemy.com/course/qt-core-intermediate/ Qt5 Core Intermediate with C++ por Bryan Cairns (pago)
 - https://www.udemy.com/course/qt-core-advanced/ Qt5 Core Advanced with C++ por Bryan Cairns (pago)
 
+Detalhes adicionais:
+- O QtCore serve como excelente porta de entrada para quem sabe bem pouco de C++. Na prática se vê uma API bastante similar à da biblioteca padrão do C++, porém mais legível e fácil de usar.
+  
 # QtWidgets
 
 Em Português:
@@ -473,6 +476,11 @@ Em Inglês:
 - https://www.udemy.com/course/qt6-c-gui-widgets-tutorial-for-beginners/ Qt6 C++ GUI Development for Beginners por Daniel Gakwaya (pago)
 - https://www.udemy.com/course/qt-c-gui-tutorial-for-complete-beginners/ Qt5 C++ GUI Development for Beginners por Daniel Gakwaya (pago)
 - https://www.udemy.com/course/qt-c-gui-development-intermediate/ Qt5 C++ GUI Development Intermediate por Daniel Gakwaya (pago)
+
+Detalhes adicionais:
+- O QtWidgets vem com widgets praticamente prontos para o desktop. Por padrão integra com o sistema e o tema com quase nenhum esforço.
+- Não é apropriado para mobile.
+- A nova API do CMake pro Qt6 [qt_standard_project_setup](https://doc.qt.io/qt-6/qt-standard-project-setup.html) tira a necessidade definir manualmente certas configurações do CMake, como AUTOMOC, AUTORCC e AUTOUIC, reduzindo significativamente o tamanho dos arquivos CMake.
 
 
 # QtQuick
@@ -491,6 +499,18 @@ Em Inglês:
 - https://www.udemy.com/course/qt_quick_qml_tutorial_for_beginners/ Qt Quick and QML for Beginners por Daniel Gakwaya (pago)
 - https://www.udemy.com/course/interfacing-qt-quick-qml-to-cpp-intermediate/ Qt Quick and QML Intermediate por Daniel Gakwaya (pago)
 - https://www.udemy.com/course/interfacing-qt-quick-qml-to-cpp-advanced/ Qt Quick and QML Advanced por Daniel Gakwaya (pago)
+  
+Detalhes adicionais:
+- O QtQuick vem com widgets mais crus por padrão, requer definir propriedades para integrar ao sistema.
+- É a tecnologia recomendada caso for fazer aplicativos mobile.
+- A partir do Qt 5.15 e do Qt 6.0 pra frente, é possível [fazer imports sem versionamento](https://doc.qt.io/qt-6/cmake-qt5-and-qt6-compatibility.html#versionless-commands).
+- Caso queira verificar as versões das bibliotecas QML que você tem no seu sistema Linux, dentro das pastas /usr/lib64/qt5/qml e /usr/lib64/qt6/qml há arquivos chamados plugins.qmltypes para cada biblioteca. Neles, a versão mínima de cada módulo pode ser vista em linhas contendo a palavra "exports". 
+- Lembre-se: filhos de um [Layout](https://doc.qt.io/qt-6/qml-qtquick-layouts-layout.html) devem usar [attached properties](https://doc.qt.io/qt-6/qtqml-syntax-objectattributes.html#attached-properties-and-attached-signal-handlers), não [anchors](https://doc.qt.io/qt-6/qtquick-positioning-anchors.html).
+- Lembre-se: nunca use anchors e attached properties ao mesmo tempo no mesmo componente.
+- Lembre-se: signals disponíveis ou criados pelo QML automaticamente geram signal handlers do tipo on + Nome (e em certos casos + Changed). Por exemplo, o signal clicked do [QtQuick.Controls Button](https://doc.qt.io/qt-6/qml-qtquick-controls2-button.html) possui o signal handler onClicked; o signal value do [QtQuick.Controls Slider](https://doc.qt.io/qt-6/qml-qtquick-controls2-slider.html) possui o signal handler onValueChanged. Signal handlers NÃO aparecem na documentação de referência do Qt.
+- Há certos tipos QML especiais que não precisam de layout ou anchors, como o [Repeater](https://doc.qt.io/qt-6/qml-qtquick-repeater.html), porque internamente eles transferem a relação de pai/filho para cima. Por exemplo, no caso de um [ColumnLayout](https://doc.qt.io/qt-6/qml-qtquick-layouts-columnlayout.html) contendo um Repeater de [Buttons](https://doc.qt.io/qt-6/qml-qtquick-controls2-button.html), os Buttons se tornam filhos diretos do ColumnLayout.
+- A nova API do CMake pro Qt6 [qt_add_qml_module](https://doc-snapshots.qt.io/qt6-dev/qt-add-qml-module.html) já cria resources para você, logo não é necessário (nem recomendado) usar o [qt_add_resources](https://doc.qt.io/qt-6/qt-add-resources.html) junto dele.
+- Singletons feitos pelo QML usando pragma singleton requerem a propriedade QT_QML_SINGLETON_TYPE definida usandos set_source_files_properties.
 
 # PySide/PyQt
 
@@ -502,6 +522,8 @@ Em Português:
 Em Inglês:
 - https://www.youtube.com/playlist?list=PLfQ7GQSrl0_sD1QIopcYA9GTDUA0nOox5 Qt Quick and Python (por Wanderson)
 
+Detalhes adicionais:
+  
 # Outros links
 Em Português:
 - https://github.com/cppbrasil/material-de-aprendizado Materiais de aprendizado para C++
