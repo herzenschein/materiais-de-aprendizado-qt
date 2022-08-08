@@ -470,6 +470,9 @@ Em Português:
 
 Em Inglês:
 - https://www.udemy.com/course/qt-widgets-beginners/ Qt5 Widgets for Beginners por Bryan Cairns (pago)
+- https://www.udemy.com/course/qt6-c-gui-widgets-tutorial-for-beginners/ Qt6 C++ GUI Development for Beginners por Daniel Gakwaya (pago)
+- https://www.udemy.com/course/qt-c-gui-tutorial-for-complete-beginners/ Qt5 C++ GUI Development for Beginners por Daniel Gakwaya (pago)
+- https://www.udemy.com/course/qt-c-gui-development-intermediate/ Qt5 C++ GUI Development Intermediate por Daniel Gakwaya (pago)
 
 
 # QtQuick
@@ -484,6 +487,9 @@ Em Inglês:
 - https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc Introduction to Qt/QML por KDAB
 - https://www.youtube.com/playlist?list=PL6CJYn40gN6jWHP5krsQrVGyYtKh3A3be QML Tips and Tricks por KDAB
 - https://www.udemy.com/course/qml-for-beginners/ QML5 for Beginners por Bryan Cairns (pago)
+- https://www.udemy.com/course/qt_quick_qml_tutorial_for_beginners/ Qt Quick and QML for Beginners por Daniel Gakwaya (pago)
+- https://www.udemy.com/course/interfacing-qt-quick-qml-to-cpp-intermediate/ Qt Quick and QML Intermediate por Daniel Gakwaya (pago)
+- https://www.udemy.com/course/interfacing-qt-quick-qml-to-cpp-advanced/ Qt Quick and QML Advanced por Daniel Gakwaya (pago)
 
 # PySide/PyQt
 
