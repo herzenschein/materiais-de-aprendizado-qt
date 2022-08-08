@@ -1,7 +1,7 @@
 # Materiais de aprendizado para estudar Qt
 Este repositório contém materiais para estudar Qt em português e inglês.
 
-Índice:
+## Índice
 
 * Introdução
   * [O que é o Qt? Como posso usar o Qt?](#o-que-%C3%A9-o-qt-como-posso-usar-o-qt)
@@ -30,7 +30,7 @@ Este repositório contém materiais para estudar Qt em português e inglês.
   * [Outros links](#outros-links)
   * [Contribuindo](#contribuindo)
 
-# O que é o Qt? Como posso usar o Qt?
+## O que é o Qt? Como posso usar o Qt?
 
 <details>
   <summary>Clique aqui para ler</summary>
@@ -43,7 +43,7 @@ Ele possui duas licenças principais: uma LGPL e uma comercial. Os módulos do Q
 
 </details>
 
-# Qual a diferença entre QtCore, QtWidgets, QtQuick e QML?
+## Qual a diferença entre QtCore, QtWidgets, QtQuick e QML?
 
 <details>
   <summary>Clique aqui para ler</summary>
@@ -62,7 +62,7 @@ Outros componentes interessantes do Qt são o [QtGUI](https://doc-snapshots.qt.i
 
 </details>
 
-# Que linguagens posso usar para desenvolver em Qt?
+## Que linguagens posso usar para desenvolver em Qt?
 
 <details>
   <summary>Clique aqui para ler</summary>
@@ -79,7 +79,7 @@ Há também o [QtJambi](https://github.com/OmixVisualization/qtjambi/wiki) para 
 
 </details>
 
-# Onde/como posso ler a documentação da API do Qt?
+## Onde/como posso ler a documentação da API do Qt?
 
 <details>
   <summary>Clique aqui para ler</summary>
@@ -102,7 +102,7 @@ Se você for iniciante e estiver tendo dificuldade com o QtWidgets em particular
 
 </details>
 
-# Rota de aprendizado para iniciantes
+## Rota de aprendizado para iniciantes
 
 <details>
   <summary>Clique aqui para ler</summary>
@@ -117,9 +117,9 @@ Se você for iniciante e estiver tendo dificuldade com o QtWidgets em particular
   
   ---
   
-## QtCore
+### QtCore
 
-### QCoreApplication
+#### QCoreApplication
 
 Importância: Alta
 
@@ -129,7 +129,7 @@ Quando retornar: Após aprender sobre signals e slots, verificar as funções qu
 
 Essencial: Sim
 
-### qDebug, qInfo, qWarning, qCritical, qFatal
+#### qDebug, qInfo, qWarning, qCritical, qFatal
 
 Importância: Alta, Média, Média, Média, Alta
 
@@ -139,7 +139,7 @@ Quando retornar:
 
 Essencial: Sim
 
-### QString, QChar, QByteArray
+#### QString, QChar, QByteArray
 
 Importância: Alta, Média, Alta
 
@@ -149,7 +149,7 @@ Quando retornar: Ao estudar QTextStream, assim como quaisquer classes QtWidgets 
 
 Essencial: Sim
 
-### QStringView, QByteArrayView
+#### QStringView, QByteArrayView
 
 Importância: Baixa, Baixa
 
@@ -159,7 +159,7 @@ Quando retornar: Quando estiver confiante em lidar com programas em C++ ou Qt e 
 
 Essencial: Não
 
-### QTime, QTimeZone, QDate, QDateTime, QCalendar
+#### QTime, QTimeZone, QDate, QDateTime, QCalendar
 
 Importância: Média, Média, Média, Média, Média
 
@@ -169,7 +169,7 @@ Quando retornar: Após aprender sobre timers.
 
 Essencial: Não
 
-### QRandomGenerator
+#### QRandomGenerator
 
 Importância: Média
 
@@ -179,7 +179,7 @@ Quando retornar:
 
 Essencial: Não
 
-### QPoint, QLine, QRect, QSize
+#### QPoint, QLine, QRect, QSize
 
 Importância: Média, Média, Média, Alta
 
@@ -189,7 +189,7 @@ Quando retornar: Ao começar a lidar com gráficos e multimídia.
 
 Essencial: Não
 
-### Object Trees and Ownership - https://doc.qt.io/qt-6/objecttrees.html
+#### Object Trees and Ownership - https://doc.qt.io/qt-6/objecttrees.html
 
 Importância: Alta
 
@@ -199,7 +199,7 @@ Quando retornar: Sempre que for lidar com QObjects direta ou indiretamente.
 
 Essencial: Sim
 
-### Signals and Slots - https://doc.qt.io/qt-6/signalsandslots.html
+#### Signals and Slots - https://doc.qt.io/qt-6/signalsandslots.html
 
 Importância: Alta
 
@@ -209,7 +209,7 @@ Quando retornar: Ao começar a estudar QtWidgets ou QtQuick.
 
 Essencial: Sim
 
-### QFile, QDir, QUrl, QIODevice, QSettings, QSysInfo, QStandardPaths
+#### QFile, QDir, QUrl, QIODevice, QSettings, QSysInfo, QStandardPaths
 
 Importância: Alta, Alta, Alta, Média, Alta, Baixa, Alta
 
@@ -219,7 +219,7 @@ Quando retornar: Quando for lidar com documentos como JSON/XML, quando for lidar
 
 Essencial: Sim
 
-### Qt Namespace - https://doc.qt.io/qt-6/qt.html
+#### Qt Namespace - https://doc.qt.io/qt-6/qt.html
 
 Importância: Alta
 
@@ -229,7 +229,7 @@ Quando retornar:
 
 Essencial: Não
 
-### QFlags - https://doc.qt.io/qt-6/qflags.html
+#### QFlags - https://doc.qt.io/qt-6/qflags.html
 
 Importância: Baixa
 
@@ -239,7 +239,7 @@ Quando retornar:
 
 Essencial: Não
 
-### Container Classes - https://doc.qt.io/qt-6/containers.html
+#### Container Classes - https://doc.qt.io/qt-6/containers.html
 
 Importância: Alta
 
@@ -249,7 +249,7 @@ Quando retornar:
 
 Essencial: Sim
 
-### QList, QVector
+#### QList, QVector
 
 Importância: Alta, Baixa
 
@@ -259,7 +259,7 @@ Quando retornar: Quando for estudar qualquer descendente do QList.
 
 Essencial: Sim
 
-### QMap, QSet
+#### QMap, QSet
 
 Importância: Alta, Média
 
@@ -269,7 +269,7 @@ Quando retornar: Quando for estudar o QVariant e o QVariantMap, que pode ser usa
 
 Essencial: Sim
 
-### QVariant, QIterator
+#### QVariant, QIterator
 
 Importância: Alta, Média
 
@@ -279,7 +279,7 @@ Quando retornar: Ao começar a estudar QtQuick.
 
 Essencial: Sim
 
-### QStringList, QByteArrayList
+#### QStringList, QByteArrayList
 
 Importância: Média, Média
 
@@ -289,7 +289,7 @@ Quando retornar:
 
 Essencial: Não
 
-### QTextStream
+#### QTextStream
 
 Importância: Baixa
 
@@ -297,7 +297,7 @@ Para iniciantes: Esta classe é particularmente útil para implementar o equival
 
 Essencial: Não
   
-### QVariantList, QVariantMap
+#### QVariantList, QVariantMap
 
 Importância: Alta, Alta
 
@@ -307,7 +307,7 @@ Quando retornar: Ao começar a estudar QtQuick, ou ao lidar com QJSon e QXmlStre
 
 Essencial: Sim
 
-### QCommandLineParser, QCommandLineOption
+#### QCommandLineParser, QCommandLineOption
 
 Importância: Baixa, Média
 
@@ -317,7 +317,7 @@ Quando retornar:
 
 Essencial: Não
 
-### QJsonObject, QJsonDocument
+#### QJsonObject, QJsonDocument
 
 Importância: Média, Média
 
@@ -327,7 +327,7 @@ Quando retornar:
 
 Essencial: Não
 
-### QXmlStreamReader, QXmlStreamWriter
+#### QXmlStreamReader, QXmlStreamWriter
 
 Importância: Média, Média
 
@@ -337,7 +337,7 @@ Quando retornar:
 
 Essencial: Não
 
-### QEvent
+#### QEvent
 
 Importância: Alta
 
@@ -347,7 +347,7 @@ Quando retornar: Ao lidar com os signals e slots de QtWidgets.
 
 Essencial: Sim
 
-### Timers, QTimer - https://doc.qt.io/qt-6/timers.html
+#### Timers, QTimer - https://doc.qt.io/qt-6/timers.html
 
 Importância: Média, Média
 
@@ -359,7 +359,7 @@ Essencial: Não
 
 ---
   
-### QtWidgets
+#### QtWidgets
 
   ```
 QApplication
@@ -387,14 +387,14 @@ Internationalization with Qt - https://doc.qt.io/qt-6/internationalization.html
 </details>
 
 
-# Canais para seguir
+## Canais para seguir
 
 - https://www.youtube.com/c/QtStudios The Qt Company
 - https://www.youtube.com/channel/UCpnk1I7ThHtKn4UYkuaO7Qg QtCon Brasil
 - https://www.youtube.com/c/KDABtv KDAB TV
 - https://www.youtube.com/c/KdeOrg The KDE Community
 
-# Introduções ao Qt
+## Introduções ao Qt
 
 Em Português:
 - https://ppgesp.ifba.edu.br/dl47 Introdução ao Qt/QtWidgets (por Sandro Andrade)
@@ -407,7 +407,7 @@ Em Inglês:
 - https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc Introduction to Qt/QML (por KDAB)
 - https://youtu.be/Ftm68AzYvr8 Akademy 2021: Qt for Python (por Anupam Basak)
 
-# Cursos completos de Qt
+## Cursos completos de Qt
 
 Em Português:
 - https://www.youtube.com/playlist?list=PLx4x_zx8csUhzAyii9-cY-IJwo00p_5AC  Curso de Qt (por Canal Fessor Bruno)
@@ -417,7 +417,7 @@ Em Inglês:
 - https://www.youtube.com/playlist?list=PL2D1942A4688E9D63 C++ Qt Programming (por Bryan Cairns)
 - https://www.youtube.com/playlist?list=PLUbFnGajtZlXbrbdlraCe3LMC_YH5abao Qt 6 With C++ (por Bryan Cairns)
 
-# Livros para aprender Qt
+## Livros para aprender Qt
 
 Em Português:
 - https://programacaoqt.wordpress.com/ Aprendendo Qt com o projeto Octopi (pago, por Alexandre Albuquerque Arnt)
@@ -427,7 +427,7 @@ Em Inglês:
 - https://www.qt.io/product/qt6/qml-book O livro de QML6 oficial da TQC baseado no qmlbook de Cadaques
 - https://qmlbook.github.io/ O livro de QML5 original por Cadaques
 
-# Tutoriais de Qt oficiais da The Qt Company em Inglês
+## Tutoriais de Qt oficiais da The Qt Company em Inglês
 
 - https://www.youtube.com/playlist?list=PLizsthdRd0Ywl59atMhNyCydPrb6xz8wN Playlist de tutoriais oficiais da TheQtCompany
 
@@ -451,7 +451,7 @@ O seguinte conteúdo e mais é disponibilizado pela The Qt Company por meio do [
 - https://www.youtube.com/watch?v=9xqhq9nDiOg Qt SCXML and state machine tooling in Qt Creator
 
 
-# Talks de Qt oficiais da The Qt Company em Inglês (material opcional)
+## Talks de Qt oficiais da The Qt Company em Inglês (material opcional)
 
 <details>
   <summary>Clique aqui para ver o material opcional</summary>
@@ -481,7 +481,7 @@ O seguinte conteúdo e mais é disponibilizado pela The Qt Company por meio do [
 
 </details>
   
-# QtCore
+## QtCore
 
 Em Português:
 
@@ -496,7 +496,7 @@ Em Inglês:
 Detalhes adicionais:
 - O QtCore serve como excelente porta de entrada para quem sabe bem pouco de C++. Na prática se vê uma API bastante similar à da biblioteca padrão do C++, porém mais legível e fácil de usar.
   
-# QtWidgets
+## QtWidgets
 
 Em Português:
 
@@ -512,7 +512,7 @@ Detalhes adicionais:
 - A nova API do CMake pro Qt6 [qt_standard_project_setup](https://doc.qt.io/qt-6/qt-standard-project-setup.html) tira a necessidade definir manualmente certas configurações do CMake, como AUTOMOC, AUTORCC e AUTOUIC, reduzindo significativamente o tamanho dos arquivos CMake.
 
 
-# QtQuick
+## QtQuick
 
 Em Português:
 - https://www.youtube.com/playlist?list=PL6oOWzm2QNuwGM1gUZkVm79jfvW9QaOpd Playlist introduzindo programação com QtQuick da KDE Brasil (por Patrick Pereira)
@@ -541,7 +541,7 @@ Detalhes adicionais:
 - A nova API do CMake pro Qt6 [qt_add_qml_module](https://doc-snapshots.qt.io/qt6-dev/qt-add-qml-module.html) já cria resources para você, logo não é necessário (nem recomendado) usar o [qt_add_resources](https://doc.qt.io/qt-6/qt-add-resources.html) junto dele.
 - Singletons feitos pelo QML usando pragma singleton requerem a propriedade QT_QML_SINGLETON_TYPE definida usandos set_source_files_properties.
 
-# PySide/PyQt
+## PySide/PyQt
 
 Em Português:
 - https://www.youtube.com/playlist?list=PLfQ7GQSrl0_ung_Wt0PpgOICqA8k6dr3i Curso de Python e PySide6 (por Wanderson) 
@@ -553,7 +553,7 @@ Em Inglês:
 
 Detalhes adicionais:
   
-# Outros links
+## Outros links
 Em Português:
 - https://github.com/cppbrasil/material-de-aprendizado Materiais de aprendizado para C++
 - https://t.me/qtbrasil O grupo oficial do QtBrasil no Telegram
@@ -573,7 +573,7 @@ Em Inglês:
 - https://wiki.qt.io/API_Design_Principles O material de referência do design da API do Qt
 
 
-# Contribuindo
+## Contribuindo
 
 <details>
   <summary>Clique aqui para ler</summary>
