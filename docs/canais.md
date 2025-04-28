@@ -1,6 +1,6 @@
-# Canais para seguir
+# Canais do YouTube para seguir
 
-- https://www.youtube.com/c/QtStudios The Qt Company
-- https://www.youtube.com/channel/UCpnk1I7ThHtKn4UYkuaO7Qg QtCon Brasil
-- https://www.youtube.com/c/KDABtv KDAB TV
-- https://www.youtube.com/c/KdeOrg The KDE Community
+- The Qt Company - [https://www.youtube.com/c/QtStudios](https://www.youtube.com/c/QtStudios) 
+- QtCon Brasil - [https://www.youtube.com/channel/UCpnk1I7ThHtKn4UYkuaO7Qg](https://www.youtube.com/channel/UCpnk1I7ThHtKn4UYkuaO7Qg)
+- KDAB TV - [https://www.youtube.com/c/KDABtv](https://www.youtube.com/c/KDABtv)
+- The KDE Community - [https://www.youtube.com/c/KdeOrg](https://www.youtube.com/c/KdeOrg) 

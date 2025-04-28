@@ -1,4 +1,4 @@
-# Contribuindo
+# Como contribuir para este site
 
 As diretrizes para contribuir são as seguintes:
 

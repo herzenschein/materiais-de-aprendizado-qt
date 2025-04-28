@@ -1,24 +1,24 @@
 # Talks de Qt oficiais da The Qt Company em Inglês (material opcional)
 
-- https://www.youtube.com/watch?v=nmvurCcsWos All You Need to Get Your App Done with Qt for Android | Tools | #QtWS21
-- https://www.youtube.com/watch?v=3o2Wo4YzlII QtWS17 - Android & iOS - put your app on a diet, Maciej Węglarczyk, GameDesire
-- https://www.youtube.com/watch?v=sRihJdZFuCg Code Once Deploy Everywhere: How Qt is ideal for cross-platform development
-- https://www.youtube.com/watch?v=Ko3DuCgFamo QtWS15- Custom Qt Creator Wizards, Tobias Hunger, The Qt Company
-- https://www.youtube.com/watch?v=v4glCQt2jE0 QtWS15- Effective multi platform development with Qt, Creator, QBS, and QEMU
-- https://www.youtube.com/watch?v=DP0lMoLVneY QtDD13 - Tobias Hunger - Extending Qt Creator
-- https://www.youtube.com/watch?v=qclquZ99ZVQ QtWS16- How to Develop with Qt for Multi-Screen and Platforms, Efficient App Lifecycle with Qt
-- https://www.youtube.com/watch?v=PzV2MYRAUYQ How to create a plugin for Qt Creator
-- https://www.youtube.com/watch?v=v_ynSET9FHU LTTng for full stack tracing
-- https://www.youtube.com/watch?v=au3brB7lNms QtWS17 No Limits: HowTo make a more complicated mobile business APP, Ekkehard Gentz
-- https://www.youtube.com/watch?v=ECA8_oLT0ZE Qt & Yocto, an ECU development workflow
-- https://www.youtube.com/watch?v=TiJiF0MOOFc QtDD14 -Using the QML profiler - Ulf Hermann
-- https://www.youtube.com/watch?v=hrKz63Q_Rf0 QtDD13 - Tim Sander - QtCreator for BareMetal development
-- https://www.youtube.com/watch?v=1w0ak9RNNWY Qt Creator in Space | Tools | #QtWS21
-- https://www.youtube.com/watch?v=B0X5FOev9Lw Qt Designer tutorial: Integrate custom widgets
-- https://www.youtube.com/watch?v=X0kEkB0ewyw QtWS16- Qt SCXML: State Machines Made Easier, Ulf Hermann, The Qt Company
-- https://www.youtube.com/watch?v=T_13aX5NTPk QtWS16- Qt for iOS A to Z, Mike Krus, KDAB
-- https://www.youtube.com/watch?v=tnZo9umrPtg Styling a Qt Quick Controls Desktop Application | User Interface | #QtWS21
-- https://www.youtube.com/watch?v=G0AbgVHGdXI QtWS15- The CPU Usage Analyzer for Device Creation, Ulf Herman, The Qt Company
-- https://www.youtube.com/watch?v=WIRRoPxIerc QtWS16- The Curse of Choice: An Overview of GUI technologies in Qt, Andy Nichols, The Qt Company
-- https://www.youtube.com/watch?v=pN0pRBUqrrc The New Property Bindings: Making C++ more QMLish | Platform | #QtWS21
-- https://www.youtube.com/watch?v=W3WC-VpKdGQ WEBASM with Qt - Qt for WebAssembly
+- All You Need to Get Your App Done with Qt for Android | Tools | #QtWS21 - [https://www.youtube.com/watch?v=nmvurCcsWos](https://www.youtube.com/watch?v=nmvurCcsWos)
+- QtWS17 - Android & iOS - put your app on a diet, Maciej Węglarczyk, GameDesire - [https://www.youtube.com/watch?v=3o2Wo4YzlII](https://www.youtube.com/watch?v=3o2Wo4YzlII)
+- Code Once Deploy Everywhere: How Qt is ideal for cross-platform development - [https://www.youtube.com/watch?v=sRihJdZFuCg](https://www.youtube.com/watch?v=sRihJdZFuCg)
+- QtWS15- Custom Qt Creator Wizards, Tobias Hunger, The Qt Company - [https://www.youtube.com/watch?v=Ko3DuCgFamo](https://www.youtube.com/watch?v=Ko3DuCgFamo)
+- QtWS15- Effective multi platform development with Qt, Creator, QBS, and QEMU - [https://www.youtube.com/watch?v=v4glCQt2jE0](https://www.youtube.com/watch?v=v4glCQt2jE0)
+- QtDD13 - Tobias Hunger - Extending Qt Creator - [https://www.youtube.com/watch?v=DP0lMoLVneY](https://www.youtube.com/watch?v=DP0lMoLVneY)
+- QtWS16- How to Develop with Qt for Multi-Screen and Platforms, Efficient App Lifecycle with Qt - [https://www.youtube.com/watch?v=qclquZ99ZVQ](https://www.youtube.com/watch?v=qclquZ99ZVQ)
+- How to create a plugin for Qt Creator - [https://www.youtube.com/watch?v=PzV2MYRAUYQ](https://www.youtube.com/watch?v=PzV2MYRAUYQ)
+- LTTng for full stack tracing - [https://www.youtube.com/watch?v=v_ynSET9FHU](https://www.youtube.com/watch?v=v_ynSET9FHU)
+- QtWS17 No Limits: HowTo make a more complicated mobile business APP, Ekkehard Gentz - [https://www.youtube.com/watch?v=au3brB7lNms](https://www.youtube.com/watch?v=au3brB7lNms)
+- Qt & Yocto, an ECU development workflow - [https://www.youtube.com/watch?v=ECA8_oLT0ZE](https://www.youtube.com/watch?v=ECA8_oLT0ZE)
+- QtDD14 - Using the QML profiler - Ulf Hermann - [https://www.youtube.com/watch?v=TiJiF0MOOFc](https://www.youtube.com/watch?v=TiJiF0MOOFc)
+- QtDD13 - Tim Sander - QtCreator for BareMetal development - [https://www.youtube.com/watch?v=hrKz63Q_Rf0](https://www.youtube.com/watch?v=hrKz63Q_Rf0)
+- Qt Creator in Space | Tools | #QtWS21 - [https://www.youtube.com/watch?v=1w0ak9RNNWY](https://www.youtube.com/watch?v=1w0ak9RNNWY)
+- Qt Designer tutorial: Integrate custom widgets - [https://www.youtube.com/watch?v=B0X5FOev9Lw](https://www.youtube.com/watch?v=B0X5FOev9Lw)
+- QtWS16 - Qt SCXML: State Machines Made Easier, Ulf Hermann, The Qt Company - [https://www.youtube.com/watch?v=X0kEkB0ewyw](https://www.youtube.com/watch?v=X0kEkB0ewyw)
+- QtWS16 - Qt for iOS A to Z, Mike Krus, KDAB - [https://www.youtube.com/watch?v=T_13aX5NTPk](https://www.youtube.com/watch?v=T_13aX5NTPk)
+- Styling a Qt Quick Controls Desktop Application | User Interface | #QtWS21 - [https://www.youtube.com/watch?v=tnZo9umrPtg](https://www.youtube.com/watch?v=tnZo9umrPtg)
+- QtWS15 - The CPU Usage Analyzer for Device Creation, Ulf Herman, The Qt Company - [https://www.youtube.com/watch?v=G0AbgVHGdXI](https://www.youtube.com/watch?v=G0AbgVHGdXI)
+- QtWS16 - The Curse of Choice: An Overview of GUI technologies in Qt, Andy Nichols, The Qt Company - [https://www.youtube.com/watch?v=WIRRoPxIerc](https://www.youtube.com/watch?v=WIRRoPxIerc)
+- The New Property Bindings: Making C++ more QMLish | Platform | #QtWS21 - [https://www.youtube.com/watch?v=pN0pRBUqrrc](https://www.youtube.com/watch?v=pN0pRBUqrrc)
+- WEBASM with Qt - Qt for WebAssembly - [https://www.youtube.com/watch?v=W3WC-VpKdGQ](https://www.youtube.com/watch?v=W3WC-VpKdGQ)

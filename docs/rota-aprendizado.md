@@ -80,7 +80,7 @@ Quando retornar: Ao começar a lidar com gráficos e multimídia.
 
 Essencial: Não
 
-### Object Trees and Ownership - https://doc.qt.io/qt-6/objecttrees.html
+### Object Trees and Ownership - [https://doc.qt.io/qt-6/objecttrees.html](https://doc.qt.io/qt-6/objecttrees.html)
 
 Importância: Alta
 
@@ -90,7 +90,7 @@ Quando retornar: Sempre que for lidar com QObjects direta ou indiretamente.
 
 Essencial: Sim
 
-### Signals and Slots - https://doc.qt.io/qt-6/signalsandslots.html
+### Signals and Slots - [https://doc.qt.io/qt-6/signalsandslots.html](https://doc.qt.io/qt-6/signalsandslots.html)
 
 Importância: Alta
 
@@ -110,7 +110,7 @@ Quando retornar: Quando for lidar com documentos como JSON/XML, quando for lidar
 
 Essencial: Sim
 
-### Qt Namespace - https://doc.qt.io/qt-6/qt.html
+### Qt Namespace - [https://doc.qt.io/qt-6/qt.html](https://doc.qt.io/qt-6/qt.html)
 
 Importância: Alta
 
@@ -120,7 +120,7 @@ Quando retornar:
 
 Essencial: Não
 
-### QFlags - https://doc.qt.io/qt-6/qflags.html
+### QFlags - [https://doc.qt.io/qt-6/qflags.html](https://doc.qt.io/qt-6/qflags.html)
 
 Importância: Baixa
 
@@ -130,7 +130,7 @@ Quando retornar:
 
 Essencial: Não
 
-### Container Classes - https://doc.qt.io/qt-6/containers.html
+### Container Classes - [https://doc.qt.io/qt-6/containers.html](https://doc.qt.io/qt-6/containers.html)
 
 Importância: Alta
 
@@ -238,7 +238,7 @@ Quando retornar: Ao lidar com os signals e slots de QtWidgets.
 
 Essencial: Sim
 
-### Timers, QTimer - https://doc.qt.io/qt-6/timers.html
+### Timers, QTimer - [https://doc.qt.io/qt-6/timers.html](https://doc.qt.io/qt-6/timers.html)
 
 Importância: Média, Média
 
@@ -250,27 +250,30 @@ Essencial: Não
 
 ---
   
-### QtWidgets
+## QtWidgets
 
-```
-QApplication
-QWidget, QDialog
-QLabel, QLineEdit, QTextEdit, QTextBrowser
-QPushButton, QRadioButton, QCheckBox, QComboBox, QSpinBox, QSlider
-QDial, QProgressBar
-QScrollArea
-Layout Management - https://doc.qt.io/qt-6/layout.html
-QHBoxLayout, QVBoxLayout, QGridLayout, QFormLayout
-QAction
-QMainWindow, QMenu, QMenuBar
-QToolBar, QTabWidget
-QColor, QFont, QIcon, QImage, QStyle
-Model/View Programming - https://doc.qt.io/qt-6/model-view-programming.html
-Model/View Tutorial - https://doc.qt.io/qt-6/modelview.html
-QListView
-QColumnView, QTableView, QTreeView
-QAbstractItemModel, QModelIndex
-QKeyEvent, QShortcut, QValidator
-Accessibility for QWidget Applications - https://doc.qt.io/qt-6/accessible-qwidget.html
-Internationalization with Qt - https://doc.qt.io/qt-6/internationalization.html  
-```
+* QApplication
+* QWidget, QDialog
+* QLabel, QLineEdit, QTextEdit, QTextBrowser
+* QPushButton, QRadioButton, QCheckBox, QComboBox, QSpinBox, QSlider
+* QDial, QProgressBar
+* QScrollArea
+* Layout Management - [https://doc.qt.io/qt-6/layout.html](https://doc.qt.io/qt-6/layout.html)
+* QHBoxLayout, QVBoxLayout, QGridLayout, QFormLayout
+* QAction
+* QMainWindow, QMenu, QMenuBar
+* QToolBar, QTabWidget
+* QColor, QFont, QIcon, QImage, QStyle
+* Model/View Programming - [https://doc.qt.io/qt-6/model-view-programming.html](https://doc.qt.io/qt-6/model-view-programming.html)
+* Model/View Tutorial - [https://doc.qt.io/qt-6/modelview.html](https://doc.qt.io/qt-6/modelview.html)
+* QListView
+* QColumnView, QTableView, QTreeView
+* QAbstractItemModel, QModelIndex
+* QKeyEvent, QShortcut, QValidator
+* Accessibility for QWidget Applications - [https://doc.qt.io/qt-6/accessible-qwidget.html](https://doc.qt.io/qt-6/accessible-qwidget.html)
+* Internationalization with Qt - [https://doc.qt.io/qt-6/internationalization.html](https://doc.qt.io/qt-6/internationalization.html)
+
+
+## QtQuick
+
+* Não há nada por aqui ainda :(

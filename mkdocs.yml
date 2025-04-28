@@ -1,32 +1,38 @@
 site_name: Materiais de aprendizado Qt
+site_url: https://herzenschein.codeberg.page/materiais-de-aprendizado-qt
 repo_url: https://codeberg.org/herzenschein/materiais-de-aprendizado-qt
 repo_name: herzenschein/materiais-de-aprendizado-qt
-edit_uri: edit/pages/docs/
+edit_uri: edit/main/docs/
 
 nav:
-  - sobre.md
-  - diferenca.md
-  - linguagens.md
-  - como-docs.md
+  - FAQ sobre o Qt:
+    - sobre.md
+    - diferenca.md
+    - linguagens.md
+    - como-docs.md
   - rota-aprendizado.md
-  - canais.md
-  - introducoes.md
-  - cursos.md
-  - livros.md
-  - tutoriais.md
-  - talks.md
-  - qtcore.md
-  - qtwidgets.md
-  - qtquick.md
-  - python.md
-  - outros.md
+  - Awesome Qt Brasil - Todos os recursos para aprender Qt:
+    - introducoes.md
+    - canais.md
+    - cursos.md
+    - livros.md
+    - tutoriais.md
+    - talks.md
+    - qtcore.md
+    - qtwidgets.md
+    - qtquick.md
+    - python.md
+    - outros.md
   - contribuindo.md
 
 theme:
   name: material
   language: pt-BR
+  logo: https://www.qt.io/hs-fs/hubfs/Qt-logo-neon_900px.png?width=600&height=428&name=Qt-logo-neon_900px.png
 
   features:
+    - navigation.instant
+    - navigation.tracking
     - navigation.expand
     - navigation.path
     - navigation.top
@@ -47,8 +53,10 @@ theme:
         icon: material/brightness-auto
         name: Switch to light mode
 
+
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
+      primary: teal
       scheme: default
       toggle:
         icon: material/brightness-7
@@ -56,6 +64,7 @@ theme:
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
+      primary: blue grey
       scheme: slate
       toggle:
         icon: material/brightness-4
