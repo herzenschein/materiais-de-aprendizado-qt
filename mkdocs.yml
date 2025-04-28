@@ -2,7 +2,7 @@ site_name: Materiais de aprendizado Qt
 site_url: https://herzenschein.codeberg.page/materiais-de-aprendizado-qt
 repo_url: https://codeberg.org/herzenschein/materiais-de-aprendizado-qt
 repo_name: herzenschein/materiais-de-aprendizado-qt
-edit_uri: edit/main/docs/
+edit_uri: _edit/main/docs/
 
 nav:
   - FAQ sobre o Qt:
